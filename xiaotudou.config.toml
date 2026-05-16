@@ -1,0 +1,17 @@
+# GBTxiaotudou Terminal 配置
+# 连接小土豆后端 API
+
+[server]
+url = "https://gbtxiaotudou.com"
+token = ""
+
+[potato]
+ascii_art = true
+motto = "全球首款AI自主钱包终端"
+
+[coding]
+audit_enabled = true      # 代码审计
+pentest_enabled = true     # 渗透测试
+bounty_enabled = true      # GitHub赏金
+stealth_enabled = true     # 隐身浏览器
+memory_enabled = true      # 长久记忆
