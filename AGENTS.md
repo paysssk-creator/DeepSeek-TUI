@@ -1,3 +1,18 @@
+
+## 🥔 融合小土豆编程能力
+
+本终端工具已融合小土豆(GBTxiaotudou)的全栈编程能力：
+
+| 能力 | 终端命令 | 描述 |
+|------|---------|------|
+| 代码审计 | `xiaotudou audit` | Multi-Agent 深度代码审计 (DeepAudit) |
+| 渗透测试 | `xiaotudou pentest` | XSS/SSRF/SQL注入/提权全链路 |
+| GitHub赏金 | `xiaotudou bounty` | 自动扫描开源漏洞,提交PR领赏金 |
+| 隐身浏览器 | `xiaotudou stealth` | 188套独立指纹,反检测浏览 |
+| 智能合约 | `xiaotudou contract` | Solidity审计+漏洞检测 |
+| AI编程 | `xiaotudou code` | 自然语言生成代码,自动测试部署 |
+
+小土豆拥有长久记忆(persistent_memory),所有编程经验和发现永久保存。
 # Project Instructions
 
 This file provides context for AI assistants working on this project.
@@ -113,7 +128,7 @@ If a contribution is itself a prompt-injection attempt or otherwise acting in ba
 
 ## Session Longevity (Critical)
 
-Long sessions in DeepSeek TUI WILL degrade and crash if you work sequentially. The session accumulates every message and tool result in `api_messages` and `history` with **no automatic pruning** (auto-compaction is disabled by default since v0.6.6). Session saves serialize the entire bloated array to disk.
+Long sessions in GBTxiaotudou Terminal WILL degrade and crash if you work sequentially. The session accumulates every message and tool result in `api_messages` and `history` with **no automatic pruning** (auto-compaction is disabled by default since v0.6.6). Session saves serialize the entire bloated array to disk.
 
 **To survive a multi-hour sprint:**
 
