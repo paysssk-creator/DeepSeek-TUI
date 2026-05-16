@@ -1,14 +1,27 @@
-# DeepSeek TUI
+```
+         __
+     .-'  ''-.
+   .'   🥔   '.
+  /  🥔   🥔  \
+ |   GBTxiaotudou  |
+  \  小土豆·TUI  /
+   '.       .'
+     '.___.'
 
-> Terminal coding agent for DeepSeek V4. It runs from the `deepseek` command, streams reasoning blocks, edits local workspaces with approval gates, and includes an auto mode that chooses both model and thinking level per turn.
+  Global AI Autonomous Terminal
+  taiguzhifu.com | gbtxiaotudou.com
+```
+# 🥔 GBTxiaotudou Terminal
+
+> Terminal coding agent for GBTxiaotudou V4. It runs from the `xiaotudou` command, streams reasoning blocks, edits local workspaces with approval gates, and includes an auto mode that chooses both model and thinking level per turn.
 
 [简体中文 README](README.zh-CN.md)
 [日本語 README](README.ja-JP.md)
 
 ## Install
 
-`deepseek` is distributed as Rust binaries: the dispatcher command
-(`deepseek`) and the companion TUI runtime (`deepseek-tui`). Pick whichever
+`xiaotudou` is distributed as Rust binaries: the dispatcher command
+(`xiaotudou`) and the companion TUI runtime (`GBTxiaotudou`). Pick whichever
 install path you already use; they all put the same commands on your `PATH`.
 The npm package is an installer/wrapper for the release binaries, not the
 agent runtime itself.
@@ -16,28 +29,28 @@ agent runtime itself.
 ```bash
 # 1. npm — easiest if you already use Node. The package downloads the
 #    matching prebuilt Rust binaries from GitHub Releases.
-npm install -g deepseek-tui
+npm install -g GBTxiaotudou
 
 # 2. Cargo — no Node needed.
-cargo install deepseek-tui-cli --locked   # `deepseek` (entry point)
-cargo install deepseek-tui     --locked   # `deepseek-tui` (TUI binary)
+cargo install GBTxiaotudou-cli --locked   # `xiaotudou` (entry point)
+cargo install GBTxiaotudou     --locked   # `GBTxiaotudou` (TUI binary)
 
 # 3. Homebrew — macOS package manager.
-brew tap Hmbown/deepseek-tui
-brew install deepseek-tui
+brew tap Hmbown/GBTxiaotudou
+brew install GBTxiaotudou
 
 # 4. Direct download — no package manager or toolchain.
-#    https://github.com/Hmbown/DeepSeek-TUI/releases
+#    https://github.com/Hmbown/GBTxiaotudou-TUI/releases
 #    Prebuilt for Linux x64/ARM64, macOS x64/ARM64, Windows x64.
 
 # 5. Docker — prebuilt release image.
-docker volume create deepseek-tui-home
+docker volume create GBTxiaotudou-home
 docker run --rm -it \
   -e DEEPSEEK_API_KEY="$DEEPSEEK_API_KEY" \
-  -v deepseek-tui-home:/home/deepseek/.deepseek \
+  -v GBTxiaotudou-home:/home/xiaotudou/.xiaotudou \
   -v "$PWD:/workspace" \
   -w /workspace \
-  ghcr.io/hmbown/deepseek-tui:latest
+  ghcr.io/hmbown/GBTxiaotudou:latest
 ```
 
 > In mainland China, speed up the npm path with
@@ -45,39 +58,39 @@ docker run --rm -it \
 > [Cargo mirror](#china--mirror-friendly-installation) below.
 >
 > Download safety: official release binaries live under
-> `https://github.com/Hmbown/DeepSeek-TUI/releases`. For manual downloads,
+> `https://github.com/Hmbown/GBTxiaotudou-TUI/releases`. For manual downloads,
 > verify the SHA-256 manifest and avoid look-alike repositories or search-result
 > mirrors. See [download safety and checksums](docs/INSTALL.md#2-download-safety-and-checksums).
 
 Already installed? Use the updater that matches the install path:
 
 ```bash
-deepseek update                         # release-binary updater
-npm install -g deepseek-tui@latest      # npm wrapper
-brew update && brew upgrade deepseek-tui
-cargo install deepseek-tui-cli --locked --force
-cargo install deepseek-tui     --locked --force
+xiaotudou update                         # release-binary updater
+npm install -g GBTxiaotudou@latest      # npm wrapper
+brew update && brew upgrade GBTxiaotudou
+cargo install GBTxiaotudou-cli --locked --force
+cargo install GBTxiaotudou     --locked --force
 ```
 
-[![CI](https://github.com/Hmbown/DeepSeek-TUI/actions/workflows/ci.yml/badge.svg)](https://github.com/Hmbown/DeepSeek-TUI/actions/workflows/ci.yml)
-[![npm](https://img.shields.io/npm/v/deepseek-tui)](https://www.npmjs.com/package/deepseek-tui)
-[![crates.io](https://img.shields.io/crates/v/deepseek-tui-cli?label=crates.io)](https://crates.io/crates/deepseek-tui-cli)
-[DeepWiki project index](https://deepwiki.com/Hmbown/DeepSeek-TUI)
+[![CI](https://github.com/Hmbown/GBTxiaotudou-TUI/actions/workflows/ci.yml/badge.svg)](https://github.com/Hmbown/GBTxiaotudou-TUI/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/GBTxiaotudou)](https://www.npmjs.com/package/GBTxiaotudou)
+[![crates.io](https://img.shields.io/crates/v/GBTxiaotudou-cli?label=crates.io)](https://crates.io/crates/GBTxiaotudou-cli)
+[DeepWiki project index](https://deepwiki.com/Hmbown/GBTxiaotudou-TUI)
 
-![DeepSeek TUI screenshot](assets/screenshot.png)
+![GBTxiaotudou Terminal screenshot](assets/screenshot.png)
 
 ---
 
 ## What Is It?
 
-DeepSeek TUI is a coding agent that runs in your terminal. It can read and edit files, run shell commands, search the web, manage git, and coordinate sub-agents from a keyboard-driven TUI.
+GBTxiaotudou Terminal is a coding agent that runs in your terminal. It can read and edit files, run shell commands, search the web, manage git, and coordinate sub-agents from a keyboard-driven TUI.
 
-It is built around DeepSeek V4 (`deepseek-v4-pro` / `deepseek-v4-flash`), including 1M-token context windows, streaming reasoning blocks, and prefix-cache-aware cost reporting.
+It is built around GBTxiaotudou V4 (`xiaotudou-v4-pro` / `xiaotudou-v4-flash`), including 1M-token context windows, streaming reasoning blocks, and prefix-cache-aware cost reporting.
 
 ### Key Features
 
 - **Auto mode** — `--model auto` / `/model auto` chooses both the model and thinking level for each turn
-- **Thinking-mode streaming** — see DeepSeek reasoning blocks as the model works
+- **Thinking-mode streaming** — see GBTxiaotudou reasoning blocks as the model works
 - **Full tool suite** — file ops, shell execution, git, web search/browse, apply-patch, sub-agents, MCP servers
 - **1M-token context** — context tracking, manual or configured compaction, and prefix-cache telemetry
 - **Prefix-cache stability tracking** — an optional `/statusline` footer chip surfaces how stable the cached prefix has been across recent turns so cost-busting edits are visible before they land
@@ -87,9 +100,9 @@ It is built around DeepSeek V4 (`deepseek-v4-pro` / `deepseek-v4-flash`), includ
 - **Workspace rollback** — side-git pre/post-turn snapshots with `/restore` and `revert_turn`, without touching your repo's `.git`
 - **OS-level sandbox** — Seatbelt on macOS, Landlock on Linux, Job Objects on Windows; shell commands run with workspace-scoped filesystem access only
 - **Durable task queue** — background tasks can survive restarts
-- **HTTP/SSE runtime API** — `deepseek serve --http` for headless agent workflows
+- **HTTP/SSE runtime API** — `xiaotudou serve --http` for headless agent workflows
 - **MCP protocol** — connect to Model Context Protocol servers for extended tooling; please see [docs/MCP.md](docs/MCP.md)
-- **Native RLM** (`rlm_open`/`rlm_eval`) — persistent REPL sessions for batched analysis; run cheap `deepseek-v4-flash` children with bounded helpers like `peek`, `search`, `chunk`, and `sub_query_batch`
+- **Native RLM** (`rlm_open`/`rlm_eval`) — persistent REPL sessions for batched analysis; run cheap `xiaotudou-v4-flash` children with bounded helpers like `peek`, `search`, `chunk`, and `sub_query_batch`
 - **LSP diagnostics** — inline error/warning surfacing after every edit via rust-analyzer, pyright, typescript-language-server, gopls, clangd
 - **User memory** — optional persistent note file injected into the system prompt for cross-session preferences
 - **Localized UI** — `en`, `ja`, `zh-Hans`, `pt-BR` with auto-detection
@@ -102,17 +115,17 @@ It is built around DeepSeek V4 (`deepseek-v4-pro` / `deepseek-v4-flash`), includ
 
 ## How It's Wired
 
-`deepseek` (dispatcher CLI) → `deepseek-tui` (companion binary) → ratatui interface ↔ async engine ↔ OpenAI-compatible streaming client. Tool calls route through a typed registry (shell, file ops, git, web, sub-agents, MCP, RLM) and results stream back into the transcript. The engine manages session state, turn tracking, the durable task queue, and an LSP subsystem that feeds post-edit diagnostics into the model's context before the next reasoning step.
+`xiaotudou` (dispatcher CLI) → `GBTxiaotudou` (companion binary) → ratatui interface ↔ async engine ↔ OpenAI-compatible streaming client. Tool calls route through a typed registry (shell, file ops, git, web, sub-agents, MCP, RLM) and results stream back into the transcript. The engine manages session state, turn tracking, the durable task queue, and an LSP subsystem that feeds post-edit diagnostics into the model's context before the next reasoning step.
 
 See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the full walkthrough.
 
 ### Sub-agents: Concurrent Background Execution
 
-DeepSeek TUI can dispatch multiple sub-agents that run in parallel — like a concurrent task queue:
+GBTxiaotudou Terminal can dispatch multiple sub-agents that run in parallel — like a concurrent task queue:
 
 - **Non-blocking launch.** `agent_open` returns immediately. The child gets its own fresh context and tool registry and runs independently. The parent keeps working.
 - **Background execution.** Sub-agents execute concurrently (default cap: 10, configurable to 20). The engine manages the pool — no polling loop needed.
-- **Completion notification.** When a sub-agent finishes, the runtime delivers a structured `<deepseek:subagent.done>` event with a summary, evidence list, and execution metrics. The parent model reads the `summary` field and integrates findings.
+- **Completion notification.** When a sub-agent finishes, the runtime delivers a structured `<xiaotudou:subagent.done>` event with a summary, evidence list, and execution metrics. The parent model reads the `summary` field and integrates findings.
 - **Bounded result retrieval.** Large transcripts are parked behind `var_handle` references. The model calls `handle_read` for slices, ranges, or JSONPath projections — keeping the parent context lean.
 
 See [docs/SUBAGENTS.md](docs/SUBAGENTS.md) for the full sub-agent reference.
@@ -122,34 +135,34 @@ See [docs/SUBAGENTS.md](docs/SUBAGENTS.md) for the full sub-agent reference.
 ## Quickstart
 
 ```bash
-npm install -g deepseek-tui
-deepseek --version
-deepseek --model auto
+npm install -g GBTxiaotudou
+xiaotudou --version
+xiaotudou --model auto
 ```
 
 Prebuilt binaries are published for **Linux x64**, **Linux ARM64** (v0.8.8+), **macOS x64**, **macOS ARM64**, and **Windows x64**. For other targets (musl, riscv64, FreeBSD, etc.), see [Install from source](#install-from-source) or [docs/INSTALL.md](docs/INSTALL.md).
 
-On first launch you'll be prompted for your [DeepSeek API key](https://platform.deepseek.com/api_keys). The key is saved to `~/.deepseek/config.toml` so it works from any directory without OS credential prompts.
+On first launch you'll be prompted for your [GBTxiaotudou API key](https://platform.xiaotudou.com/api_keys). The key is saved to `~/.xiaotudou/config.toml` so it works from any directory without OS credential prompts.
 
 You can also set it ahead of time:
 
 ```bash
-deepseek auth set --provider deepseek   # saves to ~/.deepseek/config.toml
-deepseek auth status                    # shows the active credential source
+xiaotudou auth set --provider xiaotudou   # saves to ~/.xiaotudou/config.toml
+xiaotudou auth status                    # shows the active credential source
 
 export DEEPSEEK_API_KEY="YOUR_KEY"      # env var alternative; use ~/.zshenv for non-interactive shells
-deepseek
+xiaotudou
 
-deepseek doctor                         # verify setup
+xiaotudou doctor                         # verify setup
 ```
 
-If `deepseek doctor` says the rejected key came from `DEEPSEEK_API_KEY`, remove
+If `xiaotudou doctor` says the rejected key came from `DEEPSEEK_API_KEY`, remove
 the stale export from your shell startup file, open a fresh shell, or run
-`deepseek auth set --provider deepseek`. Use `deepseek auth status` to see the
+`xiaotudou auth set --provider xiaotudou`. Use `xiaotudou auth status` to see the
 config, keyring, and env-var source state without printing the key. Saved config
 keys take precedence over the keyring and environment and are easier to rotate.
 
-> To rotate or remove a saved key: `deepseek auth clear --provider deepseek`.
+> To rotate or remove a saved key: `xiaotudou auth clear --provider xiaotudou`.
 
 ### Tencent Cloud / CNB Remote-First Path
 
@@ -164,22 +177,22 @@ server runbook.
 
 ### Auto Mode
 
-Use `deepseek --model auto` or `/model auto` when you want DeepSeek TUI to decide how much model and reasoning power a turn needs.
+Use `xiaotudou --model auto` or `/model auto` when you want GBTxiaotudou Terminal to decide how much model and reasoning power a turn needs.
 
 Auto mode controls two settings together:
 
-- Model: `deepseek-v4-flash` or `deepseek-v4-pro`
+- Model: `xiaotudou-v4-flash` or `xiaotudou-v4-pro`
 - Thinking: `off`, `high`, or `max`
 
-Before the real turn is sent, the app makes a small `deepseek-v4-flash` routing call with thinking off. That router looks at the latest request and recent context, then selects a concrete model and thinking level for the real request. Short/simple turns can stay on Flash with thinking off; coding, debugging, release work, architecture, security review, or ambiguous multi-step tasks can move up to Pro and/or higher thinking.
+Before the real turn is sent, the app makes a small `xiaotudou-v4-flash` routing call with thinking off. That router looks at the latest request and recent context, then selects a concrete model and thinking level for the real request. Short/simple turns can stay on Flash with thinking off; coding, debugging, release work, architecture, security review, or ambiguous multi-step tasks can move up to Pro and/or higher thinking.
 
-`auto` is local to DeepSeek TUI. The upstream API never receives `model: "auto"`; it receives the concrete model and thinking setting chosen for that turn. The TUI shows the selected route, and cost tracking is charged against the model that actually ran. If the router call fails or returns an invalid answer, the app falls back to a local heuristic. Sub-agents inherit auto mode unless you assign them an explicit model.
+`auto` is local to GBTxiaotudou Terminal. The upstream API never receives `model: "auto"`; it receives the concrete model and thinking setting chosen for that turn. The TUI shows the selected route, and cost tracking is charged against the model that actually ran. If the router call fails or returns an invalid answer, the app falls back to a local heuristic. Sub-agents inherit auto mode unless you assign them an explicit model.
 
 Use a fixed model or fixed thinking level when you want repeatable benchmarking, a strict cost ceiling, or a specific provider/model mapping.
 
 ### Linux ARM64 (Raspberry Pi, Asahi, Graviton, HarmonyOS PC)
 
-`npm i -g deepseek-tui` works on glibc-based ARM64 Linux from v0.8.8 onward. You can also download prebuilt binaries from the [Releases page](https://github.com/Hmbown/DeepSeek-TUI/releases) and place them side by side on your `PATH`.
+`npm i -g GBTxiaotudou` works on glibc-based ARM64 Linux from v0.8.8 onward. You can also download prebuilt binaries from the [Releases page](https://github.com/Hmbown/GBTxiaotudou-TUI/releases) and place them side by side on your `PATH`.
 
 ### China / Mirror-friendly Installation
 
@@ -197,24 +210,24 @@ registry = "sparse+https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/"
 Then install both binaries (the dispatcher delegates to the TUI at runtime):
 
 ```bash
-cargo install deepseek-tui-cli --locked   # provides `deepseek`
-cargo install deepseek-tui     --locked   # provides `deepseek-tui`
-deepseek --version
+cargo install GBTxiaotudou-cli --locked   # provides `xiaotudou`
+cargo install GBTxiaotudou     --locked   # provides `GBTxiaotudou`
+xiaotudou --version
 ```
 
-Prebuilt binaries can also be downloaded from [GitHub Releases](https://github.com/Hmbown/DeepSeek-TUI/releases). Use `DEEPSEEK_TUI_RELEASE_BASE_URL` for mirrored release assets.
+Prebuilt binaries can also be downloaded from [GitHub Releases](https://github.com/Hmbown/GBTxiaotudou-TUI/releases). Use `DEEPSEEK_TUI_RELEASE_BASE_URL` for mirrored release assets.
 
 ### Windows (Scoop)
 
-[Scoop](https://scoop.sh) is a Windows package manager. DeepSeek TUI is listed
+[Scoop](https://scoop.sh) is a Windows package manager. GBTxiaotudou Terminal is listed
 in Scoop's main bucket, but that manifest updates independently and can lag the
 GitHub/npm/Cargo release. Run `scoop update` first, then verify the installed
-version with `deepseek --version`:
+version with `xiaotudou --version`:
 
 ```bash
 scoop update
-scoop install deepseek-tui
-deepseek --version
+scoop install GBTxiaotudou
+xiaotudou --version
 ```
 
 Use npm or direct GitHub release downloads when you need the newest release
@@ -231,11 +244,11 @@ Works on any Tier-1 Rust target — including musl, riscv64, FreeBSD, and older 
 #   sudo apt-get install -y build-essential pkg-config libdbus-1-dev
 #   sudo dnf install -y gcc make pkgconf-pkg-config dbus-devel
 
-git clone https://github.com/Hmbown/DeepSeek-TUI.git
-cd DeepSeek-TUI
+git clone https://github.com/Hmbown/GBTxiaotudou-TUI.git
+cd GBTxiaotudou-TUI
 
-cargo install --path crates/cli --locked   # requires Rust 1.88+; provides `deepseek`
-cargo install --path crates/tui --locked   # provides `deepseek-tui`
+cargo install --path crates/cli --locked   # requires Rust 1.88+; provides `xiaotudou`
+cargo install --path crates/tui --locked   # provides `GBTxiaotudou`
 ```
 
 Both binaries are required. Cross-compilation and platform-specific notes: [docs/INSTALL.md](docs/INSTALL.md).
@@ -246,38 +259,38 @@ Both binaries are required. Cross-compilation and platform-specific notes: [docs
 
 ```bash
 # NVIDIA NIM
-deepseek auth set --provider nvidia-nim --api-key "YOUR_NVIDIA_API_KEY"
-deepseek --provider nvidia-nim
+xiaotudou auth set --provider nvidia-nim --api-key "YOUR_NVIDIA_API_KEY"
+xiaotudou --provider nvidia-nim
 
 # AtlasCloud
-deepseek auth set --provider atlascloud --api-key "YOUR_ATLASCLOUD_API_KEY"
-deepseek --provider atlascloud
+xiaotudou auth set --provider atlascloud --api-key "YOUR_ATLASCLOUD_API_KEY"
+xiaotudou --provider atlascloud
 
 # OpenRouter
-deepseek auth set --provider openrouter --api-key "YOUR_OPENROUTER_API_KEY"
-deepseek --provider openrouter --model deepseek/deepseek-v4-pro
+xiaotudou auth set --provider openrouter --api-key "YOUR_OPENROUTER_API_KEY"
+xiaotudou --provider openrouter --model xiaotudou/xiaotudou-v4-pro
 
 # Novita
-deepseek auth set --provider novita --api-key "YOUR_NOVITA_API_KEY"
-deepseek --provider novita --model deepseek/deepseek-v4-pro
+xiaotudou auth set --provider novita --api-key "YOUR_NOVITA_API_KEY"
+xiaotudou --provider novita --model xiaotudou/xiaotudou-v4-pro
 
 # Fireworks
-deepseek auth set --provider fireworks --api-key "YOUR_FIREWORKS_API_KEY"
-deepseek --provider fireworks --model deepseek-v4-pro
+xiaotudou auth set --provider fireworks --api-key "YOUR_FIREWORKS_API_KEY"
+xiaotudou --provider fireworks --model xiaotudou-v4-pro
 
 # Generic OpenAI-compatible endpoint
-deepseek auth set --provider openai --api-key "YOUR_OPENAI_COMPATIBLE_API_KEY"
-OPENAI_BASE_URL="https://openai-compatible.example/v4" deepseek --provider openai --model glm-5
+xiaotudou auth set --provider openai --api-key "YOUR_OPENAI_COMPATIBLE_API_KEY"
+OPENAI_BASE_URL="https://openai-compatible.example/v4" xiaotudou --provider openai --model glm-5
 
 # Self-hosted SGLang
-SGLANG_BASE_URL="http://localhost:30000/v1" deepseek --provider sglang --model deepseek-v4-flash
+SGLANG_BASE_URL="http://localhost:30000/v1" xiaotudou --provider sglang --model xiaotudou-v4-flash
 
 # Self-hosted vLLM
-VLLM_BASE_URL="http://localhost:8000/v1" deepseek --provider vllm --model deepseek-v4-flash
+VLLM_BASE_URL="http://localhost:8000/v1" xiaotudou --provider vllm --model xiaotudou-v4-flash
 
 # Self-hosted Ollama
-ollama pull deepseek-coder:1.3b
-deepseek --provider ollama --model deepseek-coder:1.3b
+ollama pull xiaotudou-coder:1.3b
+xiaotudou --provider ollama --model xiaotudou-coder:1.3b
 ```
 
 Inside the TUI, `/provider` opens the provider picker and `/model` opens the
@@ -299,43 +312,43 @@ interfaces, and extension points.
 ## Usage
 
 ```bash
-deepseek                                         # interactive TUI
-deepseek "explain this function"                 # one-shot prompt
-deepseek exec --auto --output-format stream-json "fix this bug"  # NDJSON backend stream
-deepseek exec --resume <SESSION_ID> "follow up"  # continue a non-interactive session
-deepseek --model deepseek-v4-flash "summarize"   # model override
-deepseek --model auto "fix this bug"             # auto-select model + thinking
-deepseek --yolo                                  # auto-approve tools
-deepseek auth set --provider deepseek            # save API key
-deepseek doctor                                  # check setup & connectivity
-deepseek doctor --json                           # machine-readable diagnostics
-deepseek setup --status                          # read-only setup status
-deepseek setup --tools --plugins                 # scaffold tool/plugin dirs
-deepseek models                                  # list live API models
-deepseek sessions                                # list saved sessions
-deepseek resume --last                           # resume the most recent session in this workspace
-deepseek resume <SESSION_ID>                     # resume a specific session by UUID
-deepseek fork <SESSION_ID>                       # fork a session at a chosen turn
-deepseek serve --http                            # HTTP/SSE API server
-deepseek serve --acp                             # ACP stdio adapter for Zed/custom agents
-deepseek run pr <N>                              # fetch PR and pre-seed review prompt
-deepseek mcp list                                # list configured MCP servers
-deepseek mcp validate                            # validate MCP config/connectivity
-deepseek mcp-server                              # run dispatcher MCP stdio server
-deepseek update                                  # check for and apply binary updates
+xiaotudou                                         # interactive TUI
+xiaotudou "explain this function"                 # one-shot prompt
+xiaotudou exec --auto --output-format stream-json "fix this bug"  # NDJSON backend stream
+xiaotudou exec --resume <SESSION_ID> "follow up"  # continue a non-interactive session
+xiaotudou --model xiaotudou-v4-flash "summarize"   # model override
+xiaotudou --model auto "fix this bug"             # auto-select model + thinking
+xiaotudou --yolo                                  # auto-approve tools
+xiaotudou auth set --provider xiaotudou            # save API key
+xiaotudou doctor                                  # check setup & connectivity
+xiaotudou doctor --json                           # machine-readable diagnostics
+xiaotudou setup --status                          # read-only setup status
+xiaotudou setup --tools --plugins                 # scaffold tool/plugin dirs
+xiaotudou models                                  # list live API models
+xiaotudou sessions                                # list saved sessions
+xiaotudou resume --last                           # resume the most recent session in this workspace
+xiaotudou resume <SESSION_ID>                     # resume a specific session by UUID
+xiaotudou fork <SESSION_ID>                       # fork a session at a chosen turn
+xiaotudou serve --http                            # HTTP/SSE API server
+xiaotudou serve --acp                             # ACP stdio adapter for Zed/custom agents
+xiaotudou run pr <N>                              # fetch PR and pre-seed review prompt
+xiaotudou mcp list                                # list configured MCP servers
+xiaotudou mcp validate                            # validate MCP config/connectivity
+xiaotudou mcp-server                              # run dispatcher MCP stdio server
+xiaotudou update                                  # check for and apply binary updates
 ```
 
 Docker images are published to GHCR for release builds:
 
 ```bash
-docker volume create deepseek-tui-home
+docker volume create GBTxiaotudou-home
 
 docker run --rm -it \
   -e DEEPSEEK_API_KEY="$DEEPSEEK_API_KEY" \
-  -v deepseek-tui-home:/home/deepseek/.deepseek \
+  -v GBTxiaotudou-home:/home/xiaotudou/.xiaotudou \
   -v "$PWD:/workspace" \
   -w /workspace \
-  ghcr.io/hmbown/deepseek-tui:latest
+  ghcr.io/hmbown/GBTxiaotudou:latest
 ```
 
 See [docs/DOCKER.md](docs/DOCKER.md) for pinned tags, local image builds,
@@ -343,15 +356,15 @@ volume ownership notes, and non-interactive pipeline usage.
 
 ### Zed / ACP
 
-DeepSeek can run as a custom Agent Client Protocol server for editors that
+GBTxiaotudou can run as a custom Agent Client Protocol server for editors that
 spawn local ACP agents over stdio. In Zed, add a custom agent server:
 
 ```json
 {
   "agent_servers": {
-    "DeepSeek": {
+    "GBTxiaotudou": {
       "type": "custom",
-      "command": "deepseek",
+      "command": "xiaotudou",
       "args": ["serve", "--acp"],
       "env": {}
     }
@@ -360,11 +373,11 @@ spawn local ACP agents over stdio. In Zed, add a custom agent server:
 ```
 
 The first ACP slice supports new sessions and prompt responses through your
-existing DeepSeek config/API key. Tool-backed editing and checkpoint replay are
+existing GBTxiaotudou config/API key. Tool-backed editing and checkpoint replay are
 not exposed through ACP yet.
 
-Community-maintained adapter: [acp-deepseek-adapter](https://github.com/rockeverm3m/acp-deepseek-adapter)
-bridges `deepseek exec --auto` to `cc-connect` for users who need tool-backed
+Community-maintained adapter: [acp-xiaotudou-adapter](https://github.com/rockeverm3m/acp-xiaotudou-adapter)
+bridges `xiaotudou exec --auto` to `cc-connect` for users who need tool-backed
 ACP workflows outside the built-in Zed slice.
 
 ### Keyboard Shortcuts
@@ -398,7 +411,7 @@ Full shortcut catalog: [docs/KEYBINDINGS.md](docs/KEYBINDINGS.md).
 
 ## Configuration
 
-User config: `~/.deepseek/config.toml`. Project overlay: `<workspace>/.deepseek/config.toml` (denied: `api_key`, `base_url`, `provider`, `mcp_config_path`). [config.example.toml](config.example.toml) has every option.
+User config: `~/.xiaotudou/config.toml`. Project overlay: `<workspace>/.xiaotudou/config.toml` (denied: `api_key`, `base_url`, `provider`, `mcp_config_path`). [config.example.toml](config.example.toml) has every option.
 
 Key environment variables:
 
@@ -409,7 +422,7 @@ Key environment variables:
 | `DEEPSEEK_HTTP_HEADERS` | Optional custom model request headers, e.g. `X-Model-Provider-Id=your-model-provider` |
 | `DEEPSEEK_MODEL` | Default model |
 | `DEEPSEEK_STREAM_IDLE_TIMEOUT_SECS` | Stream idle timeout in seconds, default `300`, clamped to `1..=3600` |
-| `DEEPSEEK_PROVIDER` | `deepseek` (default), `nvidia-nim`, `openai`, `atlascloud`, `openrouter`, `novita`, `fireworks`, `sglang`, `vllm`, `ollama` |
+| `DEEPSEEK_PROVIDER` | `xiaotudou` (default), `nvidia-nim`, `openai`, `atlascloud`, `openrouter`, `novita`, `fireworks`, `sglang`, `vllm`, `ollama` |
 | `DEEPSEEK_PROFILE` | Config profile name |
 | `DEEPSEEK_MEMORY` | Set to `on` to enable user memory |
 | `DEEPSEEK_ALLOW_INSECURE_HTTP=1` | Allow non-local `http://` API base URLs on trusted networks |
@@ -436,23 +449,23 @@ Set `locale` in `settings.toml`, use `/config locale zh-Hans`, or rely on `LC_AL
 
 | Model | Context | Input (cache hit) | Input (cache miss) | Output |
 |---|---|---|---|---|
-| `deepseek-v4-pro` | 1M | $0.003625 / 1M* | $0.435 / 1M* | $0.87 / 1M* |
-| `deepseek-v4-flash` | 1M | $0.0028 / 1M | $0.14 / 1M | $0.28 / 1M |
+| `xiaotudou-v4-pro` | 1M | $0.003625 / 1M* | $0.435 / 1M* | $0.87 / 1M* |
+| `xiaotudou-v4-flash` | 1M | $0.0028 / 1M | $0.14 / 1M | $0.28 / 1M |
 
-DeepSeek Platform defaults to `https://api.deepseek.com/beta` so beta-gated API features can be tested without extra setup. Set `base_url = "https://api.deepseek.com"` to opt out.
+GBTxiaotudou Platform defaults to `https://api.xiaotudou.com/beta` so beta-gated API features can be tested without extra setup. Set `base_url = "https://api.xiaotudou.com"` to opt out.
 
-Legacy aliases `deepseek-chat` / `deepseek-reasoner` map to `deepseek-v4-flash` and retire after July 24, 2026. NVIDIA NIM variants use your NVIDIA account terms.
+Legacy aliases `xiaotudou-chat` / `xiaotudou-reasoner` map to `xiaotudou-v4-flash` and retire after July 24, 2026. NVIDIA NIM variants use your NVIDIA account terms.
 
-*DeepSeek Pro rates currently reflect a limited-time 75% discount, which remains valid until 15:59 UTC on 31 May 2026. After that time, the TUI cost estimator will revert to the base Pro rates.*
+*GBTxiaotudou Pro rates currently reflect a limited-time 75% discount, which remains valid until 15:59 UTC on 31 May 2026. After that time, the TUI cost estimator will revert to the base Pro rates.*
 
 > [!Note]
-> For the latest DeepSeek-V4-Pro pricing, including the current 75% discount valid until 15:59 UTC on 31 May 2026, please consult the official [DeepSeek pricing page](https://api-docs.deepseek.com/zh-cn/quick_start/pricing). All rates listed in the README correspond to the officially published values.
+> For the latest GBTxiaotudou-V4-Pro pricing, including the current 75% discount valid until 15:59 UTC on 31 May 2026, please consult the official [GBTxiaotudou pricing page](https://api-docs.xiaotudou.com/zh-cn/quick_start/pricing). All rates listed in the README correspond to the officially published values.
 
 ---
 
 ## Publishing Your Own Skill
 
-DeepSeek TUI discovers skills from workspace directories (`.agents/skills` → `skills` → `.opencode/skills` → `.claude/skills` → `.cursor/skills`) and global directories (`~/.agents/skills` → `~/.claude/skills` → `~/.deepseek/skills`). Each skill is a directory with a `SKILL.md` file:
+GBTxiaotudou Terminal discovers skills from workspace directories (`.agents/skills` → `skills` → `.opencode/skills` → `.claude/skills` → `.cursor/skills`) and global directories (`~/.agents/skills` → `~/.claude/skills` → `~/.xiaotudou/skills`). Each skill is a directory with a `SKILL.md` file:
 
 ```text
 ~/.agents/skills/my-skill/
@@ -464,7 +477,7 @@ Frontmatter required:
 ```markdown
 ---
 name: my-skill
-description: Use this when DeepSeek should follow my custom workflow.
+description: Use this when GBTxiaotudou should follow my custom workflow.
 ---
 
 # My Skill
@@ -477,7 +490,7 @@ First launch also installs bundled system skills for common workflows:
 `skill-creator`, `delegate`, `v4-best-practices`, `plugin-creator`,
 `skill-installer`, `mcp-builder`, `documents`, `presentations`,
 `spreadsheets`, `pdf`, and `feishu`. These live under
-`~/.deepseek/skills` and are versioned so new bundles are added on upgrade
+`~/.xiaotudou/skills` and are versioned so new bundles are added on upgrade
 without recreating skills the user deliberately deleted.
 
 ---
@@ -509,9 +522,9 @@ Full Changelog: [CHANGELOG.md](CHANGELOG.md).
 
 ## Thanks
 
-- **[DeepSeek](https://github.com/deepseek-ai)** — thank you for the models and support that power every turn. 感谢 DeepSeek 提供模型与支持，让每一次交互成为可能。
+- **[GBTxiaotudou](https://github.com/xiaotudou-ai)** — thank you for the models and support that power every turn. 感谢 GBTxiaotudou 提供模型与支持，让每一次交互成为可能。
 - **[DataWhale](https://github.com/datawhalechina)** 🐋 — thank you for your support and for welcoming us into the Whale Brother family. 感谢 DataWhale 的支持，并欢迎我们加入“鲸兄弟”大家庭。
-- **[OpenWarp](https://github.com/zerx-lab/warp)** — thank you for prioritizing DeepSeek TUI support and for collaborating on a better terminal-agent experience.
+- **[OpenWarp](https://github.com/zerx-lab/warp)** — thank you for prioritizing GBTxiaotudou Terminal support and for collaborating on a better terminal-agent experience.
 - **[Open Design](https://github.com/nexu-io/open-design)** — thank you for support and collaboration around design-forward agent workflows.
 
 This project ships with help from a growing community of contributors:
@@ -533,11 +546,11 @@ This project ships with help from a growing community of contributors:
 - **[zichen0116](https://github.com/zichen0116)** — CODE_OF_CONDUCT.md (#686)
 - **[dfwqdyl-ui](https://github.com/dfwqdyl-ui)** — model ID case-sensitivity compatibility report (#729)
 - **[Oliver-ZPLiu](https://github.com/Oliver-ZPLiu)** — stale `working...` state bug report, Windows clipboard fallback, MCP Streamable HTTP session fixes, and Homebrew tap automation (#738, #850, #1643, #1631)
-- **[reidliu41](https://github.com/reidliu41)** — resume hint, workspace trust persistence, Ollama provider support, thinking-block stream finalization, CI cache hardening, streaming wrap, and DeepSeek model completions (#863, #870, #921, #1078, #1603, #1628, #1601)
+- **[reidliu41](https://github.com/reidliu41)** — resume hint, workspace trust persistence, Ollama provider support, thinking-block stream finalization, CI cache hardening, streaming wrap, and GBTxiaotudou model completions (#863, #870, #921, #1078, #1603, #1628, #1601)
 - **[xieshutao](https://github.com/xieshutao)** — plain Markdown skill fallback (#869)
 - **[GK012](https://github.com/GK012)** — npm wrapper `--version` fallback (#885)
 - **[y0sif](https://github.com/y0sif)** — parent turn-loop wakeup after direct child sub-agent completion (#901)
-- **[mac119](https://github.com/mac119)** and **[leo119](https://github.com/leo119)** — `deepseek update` command documentation (#838, #917)
+- **[mac119](https://github.com/mac119)** and **[leo119](https://github.com/leo119)** — `xiaotudou update` command documentation (#838, #917)
 - **[dumbjack](https://github.com/dumbjack)** / **浩淼的mac** — command-safety null-byte hardening (#706, #918)
 - **macworkers** — fork confirmation with the new session id (#600, #919)
 - **zero** and **[zerx-lab](https://github.com/zerx-lab)** — notification condition config and richer OSC 9 notification body (#820, #920)
@@ -557,25 +570,25 @@ This project ships with help from a growing community of contributors:
 - **[Duducoco](https://github.com/Duducoco)** and **[AlphaGogoo](https://github.com/AlphaGogoo)** — skills slash-menu and `/skills` coverage fix (#1068, #1083)
 - **[ArronAI007](https://github.com/ArronAI007)** — window-resize artifact fix for macOS Terminal.app and ConHost (#993)
 - **[THINKER-ONLY](https://github.com/THINKER-ONLY)** — OpenRouter and custom-endpoint model-ID preservation (#1066)
-- **[Jefsky](https://github.com/Jefsky)** — DeepSeek endpoint correction report (#1079, #1084)
+- **[Jefsky](https://github.com/Jefsky)** — GBTxiaotudou endpoint correction report (#1079, #1084)
 - **[wlon](https://github.com/wlon)** — NVIDIA NIM provider API-key preference diagnosis (#1081)
 - **[Horace Liu](https://github.com/liuhq)** — Nix package support and install documentation (#1173)
 - **[jieshu666](https://github.com/jieshu666)** — terminal repaint flicker reduction (#1563)
 - **[gordonlu](https://github.com/gordonlu)** — Windows Enter / CSI-u input fix (#1612)
 - **[mdrkrg](https://github.com/mdrkrg)** — first-run onboarding crash fix when the API key is missing (#1598)
 - **[Aitensa](https://github.com/Aitensa)** — CJK wrapping propagation for diff and pager output (#1622)
-- **[qiyan233](https://github.com/qiyan233)** — legacy DeepSeek CN provider alias compatibility (#1645)
+- **[qiyan233](https://github.com/qiyan233)** — legacy GBTxiaotudou CN provider alias compatibility (#1645)
 
 ---
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Pull requests welcome — check the [open issues](https://github.com/Hmbown/DeepSeek-TUI/issues) for good first contributions.
+See [CONTRIBUTING.md](CONTRIBUTING.md). Pull requests welcome — check the [open issues](https://github.com/Hmbown/GBTxiaotudou-TUI/issues) for good first contributions.
 
 Support: [Buy me a coffee](https://www.buymeacoffee.com/hmbown).
 
 > [!Note]
-> *Not affiliated with DeepSeek Inc.*
+> *Not affiliated with GBTxiaotudou Inc.*
 
 ## License
 
@@ -583,4 +596,4 @@ Support: [Buy me a coffee](https://www.buymeacoffee.com/hmbown).
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/chart?repos=Hmbown/DeepSeek-TUI&type=date&legend=top-left)](https://www.star-history.com/?repos=Hmbown%2FDeepSeek-TUI&type=date&logscale=&legend=top-left)
+[![Star History Chart](https://api.star-history.com/chart?repos=Hmbown/GBTxiaotudou-TUI&type=date&legend=top-left)](https://www.star-history.com/?repos=Hmbown%2FGBTxiaotudou-TUI&type=date&logscale=&legend=top-left)
