@@ -1,0 +1,3348 @@
+[
+  {
+    "id": "FIRE-ACCS",
+    "name": "FIRE ACCS",
+    "category": "accounts",
+    "description": "Fire Accs is a reliable store. We work 24/7. Delivery in seconds. Top quality.",
+    "doc_url": "https://partners.vmcardio.com/docs/FIRE-ACCS",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install FIRE-ACCS",
+      "plugin:config FIRE-ACCS",
+      "plugin:use FIRE-ACCS"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "GenZolo",
+    "name": "GenZolo",
+    "category": "accounts",
+    "description": "GenZolo delivers top quality ad accounts for e-Commerce brand builders.",
+    "doc_url": "https://partners.vmcardio.com/docs/GenZolo",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install GenZolo",
+      "plugin:config GenZolo",
+      "plugin:use GenZolo"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "adshine-pro",
+    "name": "adshine.pro",
+    "category": "accounts",
+    "description": "The world's leading provider of accounts and advertising solutions!",
+    "doc_url": "https://partners.vmcardio.com/docs/adshine-pro",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install adshine-pro",
+      "plugin:config adshine-pro",
+      "plugin:use adshine-pro"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "WarAccounts",
+    "name": "where users can buy verified premium accounts and services for various",
+    "category": "accounts",
+    "description": "platforms with secure delivery and customer support.",
+    "doc_url": "https://partners.vmcardio.com/docs/WarAccounts",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install WarAccounts",
+      "plugin:config WarAccounts",
+      "plugin:use WarAccounts"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "CAPTCHAs-IO",
+    "name": "CAPTCHAs.IO",
+    "category": "captcha",
+    "description": "CAPTCHA Bypass API Web Service Provider",
+    "doc_url": "https://partners.vmcardio.com/docs/CAPTCHAs-IO",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install CAPTCHAs-IO",
+      "plugin:config CAPTCHAs-IO",
+      "plugin:use CAPTCHAs-IO"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "CaptchaAI",
+    "name": "CaptchaAI",
+    "category": "captcha",
+    "description": "CaptchaAI The Best Automated Captcha Solving Solution with AI-powered. Experience high-speed, high-accuracy captcha solving like never before!",
+    "doc_url": "https://partners.vmcardio.com/docs/CaptchaAI",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install CaptchaAI",
+      "plugin:config CaptchaAI",
+      "plugin:use CaptchaAI"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "NextCaptcha",
+    "name": "NextCaptcha",
+    "category": "captcha",
+    "description": "Cheap And Fast Recaptcha Solving Service",
+    "doc_url": "https://partners.vmcardio.com/docs/NextCaptcha",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install NextCaptcha",
+      "plugin:config NextCaptcha",
+      "plugin:use NextCaptcha"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "DuoPlus",
+    "name": "DuoPlus云手机",
+    "category": "cloud_phone",
+    "description": "DuoPlus专注打造全球社媒营销、Tiktok、WhatsApp专用云手机，不需要下载客户端，流畅运用实体手机所有的功能。",
+    "doc_url": "https://partners.vmcardio.com/docs/DuoPlus",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install DuoPlus",
+      "plugin:config DuoPlus",
+      "plugin:use DuoPlus"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "antidetect-browser",
+    "name": "Antidetect Browser",
+    "category": "fingerprint_browser",
+    "description": "Antidetect Browser - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/antidetect-browser",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install antidetect-browser",
+      "plugin:config antidetect-browser",
+      "plugin:use antidetect-browser"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Antidetect-Browser-Hidemyacc",
+    "name": "Antidetect Browser Hidemyacc",
+    "category": "fingerprint_browser",
+    "description": "Antidetect Browser Hidemyacc - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/Antidetect-Browser-Hidemyacc",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install Antidetect-Browser-Hidemyacc",
+      "plugin:config Antidetect-Browser-Hidemyacc",
+      "plugin:use Antidetect-Browser-Hidemyacc"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Adspower-zhi-wen-liu-lan-qi",
+    "name": "Adspower指纹浏览器",
+    "category": "fingerprint_browser",
+    "description": "AdsPower 专注于为全球用户提供先进的指纹模拟技术。通过强大的指纹模拟功能，能够为每个跨境账号提供安全且独立的浏览器环境，最大限度地减少海外平台检测到你正在使用多个账号的风险。",
+    "doc_url": "https://partners.vmcardio.com/docs/Adspower-zhi-wen-liu-lan-qi",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install Adspower-zhi-wen-liu-lan-qi",
+      "plugin:config Adspower-zhi-wen-liu-lan-qi",
+      "plugin:use Adspower-zhi-wen-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "MoreLogin",
+    "name": "MoreLogin",
+    "category": "fingerprint_browser",
+    "description": "MoreLogin是全球首家推出云手机解决方案的反检测厂商，还提供了更安全、更高效的反检测浏览器，让您更轻松地保护账户，更轻松地见证收入增长，真正实现独立流量仲裁和本土化指纹的联盟营销。",
+    "doc_url": "https://partners.vmcardio.com/docs/MoreLogin",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install MoreLogin",
+      "plugin:config MoreLogin",
+      "plugin:use MoreLogin"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "MuLogin-zhi-wen-liu-lan-qi",
+    "name": "MuLogin指纹浏览器",
+    "category": "fingerprint_browser",
+    "description": "MuLogin提供无限且唯一的浏览器指纹环境，有效解决您的多个社交媒体、广告和电子商务等账号关联被禁。提供免费试用！",
+    "doc_url": "https://partners.vmcardio.com/docs/MuLogin-zhi-wen-liu-lan-qi",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install MuLogin-zhi-wen-liu-lan-qi",
+      "plugin:config MuLogin-zhi-wen-liu-lan-qi",
+      "plugin:use MuLogin-zhi-wen-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Multilogin",
+    "name": "Multilogin",
+    "category": "fingerprint_browser",
+    "description": "Multilogin 是一个多功能平台，主要提供防关联浏览器解决方案，用于管理多账号操作、自动化任务和绕过网站反机器人检测。‌其核心功能包括通过独特的浏览器配置文件避免账号封禁，并使用来自真实设备的浏览器指纹实现隐蔽性。‌Multilogin 的应用场景主要集中在需要大规模账号管理或自动化操作的领域，如跨境电商、社交媒体管理或账号矩阵",
+    "doc_url": "https://partners.vmcardio.com/docs/Multilogin",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install Multilogin",
+      "plugin:config Multilogin",
+      "plugin:use Multilogin"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "MTlogin-Antidetect-Browser",
+    "name": "Sharklogin Antidetect Browser",
+    "category": "fingerprint_browser",
+    "description": "SharkLogin Antidetect Browser for Multi-Account Management",
+    "doc_url": "https://partners.vmcardio.com/docs/MTlogin-Antidetect-Browser",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install MTlogin-Antidetect-Browser",
+      "plugin:config MTlogin-Antidetect-Browser",
+      "plugin:use MTlogin-Antidetect-Browser"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Undetectable-io",
+    "name": "Undetectable.io",
+    "category": "fingerprint_browser",
+    "description": "Undetectable 浏览器 - 真实指纹，高可信度。99.99% 的正常运行时间。通过 API 实现完全自动化、扩展程序大规模安装和配置文件创建功能，还有 cookie 机器人。",
+    "doc_url": "https://partners.vmcardio.com/docs/Undetectable-io",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install Undetectable-io",
+      "plugin:config Undetectable-io",
+      "plugin:use Undetectable-io"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "VMLogin-fang-guan-lian-liu-lan-qi",
+    "name": "VMLogin防关联浏览器",
+    "category": "fingerprint_browser",
+    "description": "VMLogin主要提供无限且唯一的浏览器指纹环境，每个环境都将显示为自然、原生的本地设置，有效防止用户多账号同时登录被关联和封禁的风险， 提供免费试用！",
+    "doc_url": "https://partners.vmcardio.com/docs/VMLogin-fang-guan-lian-liu-lan-qi",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install VMLogin-fang-guan-lian-liu-lan-qi",
+      "plugin:config VMLogin-fang-guan-lian-liu-lan-qi",
+      "plugin:use VMLogin-fang-guan-lian-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Vision-Browser",
+    "name": "Vision Browser",
+    "category": "fingerprint_browser",
+    "description": "Brief introduction - Vision Browser is a new generation antidetect browser. 99.997% uptime. Real fingerprints. A browser with honest UDP support. Flexible teamwork.",
+    "doc_url": "https://partners.vmcardio.com/docs/Vision-Browser",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install Vision-Browser",
+      "plugin:config Vision-Browser",
+      "plugin:use Vision-Browser"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "XLogin-zhi-wen-liu-lan-qi",
+    "name": "XLogin指纹浏览器",
+    "category": "fingerprint_browser",
+    "description": "为每个账号智能生成独立且唯一的设备指纹环境，精准模拟真实用户硬件环境，彻底规避平台风控检测。专为跨境数字营销、广告投放优化及规模化账号运营场景。支持免费试用！",
+    "doc_url": "https://partners.vmcardio.com/docs/XLogin-zhi-wen-liu-lan-qi",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install XLogin-zhi-wen-liu-lan-qi",
+      "plugin:config XLogin-zhi-wen-liu-lan-qi",
+      "plugin:use XLogin-zhi-wen-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "nstbrowser",
+    "name": "stbrowser",
+    "category": "fingerprint_browser",
+    "description": "免费的指纹浏览器，集成了反检测、Web解锁和智能代理，支持云容器集群、无浏览器和与Windows/Mac/Linux兼容的企业级云浏览器解决方案。",
+    "doc_url": "https://partners.vmcardio.com/docs/nstbrowser",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install nstbrowser",
+      "plugin:config nstbrowser",
+      "plugin:use nstbrowser"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "FlashID",
+    "name": "Flashid",
+    "category": "other",
+    "description": "Flashid - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/FlashID",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install FlashID",
+      "plugin:config FlashID",
+      "plugin:use FlashID"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Hidemium",
+    "name": "Hidemium",
+    "category": "other",
+    "description": "Hidemium - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/Hidemium",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Hidemium",
+      "plugin:config Hidemium",
+      "plugin:use Hidemium"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Laurel-Agency",
+    "name": "Laurel Agency",
+    "category": "other",
+    "description": "Laurel Agency - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/Laurel-Agency",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Laurel-Agency",
+      "plugin:config Laurel-Agency",
+      "plugin:use Laurel-Agency"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Mobile-Proxies",
+    "name": "Mobile Proxies",
+    "category": "other",
+    "description": "Mobile Proxies - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/Mobile-Proxies",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Mobile-Proxies",
+      "plugin:config Mobile-Proxies",
+      "plugin:use Mobile-Proxies"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Money-Safe",
+    "name": "Money Safe",
+    "category": "other",
+    "description": "Money Safe - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/Money-Safe",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Money-Safe",
+      "plugin:config Money-Safe",
+      "plugin:use Money-Safe"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Omnilogin",
+    "name": "Omnilogin",
+    "category": "fingerprint_browser",
+    "description": "Omnilogin - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/Omnilogin",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install Omnilogin",
+      "plugin:config Omnilogin",
+      "plugin:use Omnilogin"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "SimplyNode",
+    "name": "Simplynode",
+    "category": "other",
+    "description": "Simplynode - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/SimplyNode",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install SimplyNode",
+      "plugin:config SimplyNode",
+      "plugin:use SimplyNode"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "SocNet",
+    "name": "Socnet",
+    "category": "other",
+    "description": "Socnet - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/SocNet",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install SocNet",
+      "plugin:config SocNet",
+      "plugin:use SocNet"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "TRACK718",
+    "name": "Track718",
+    "category": "other",
+    "description": "Track718 - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/TRACK718",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install TRACK718",
+      "plugin:config TRACK718",
+      "plugin:use TRACK718"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "WhitePage-House",
+    "name": "Whitepage House",
+    "category": "other",
+    "description": "Whitepage House - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/WhitePage-House",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install WhitePage-House",
+      "plugin:config WhitePage-House",
+      "plugin:use WhitePage-House"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "wu-biao-ti-wen-zhang-3QUD",
+    "name": "Wu Biao Ti Wen Zhang 3Qud",
+    "category": "other",
+    "description": "Wu Biao Ti Wen Zhang 3Qud - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/wu-biao-ti-wen-zhang-3QUD",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install wu-biao-ti-wen-zhang-3QUD",
+      "plugin:config wu-biao-ti-wen-zhang-3QUD",
+      "plugin:use wu-biao-ti-wen-zhang-3QUD"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "B2-kua-jing-zi-yuan-she-qu",
+    "name": "B2跨境资源社区",
+    "category": "other",
+    "description": "B2跨境资源社区是国内专业的跨境电商资源分享交流平台，平台提供各类跨境电商相关的营销引流软件/外贸客户开发软件/网站主题&插件/高级营销教程/引流资源&资料等资源，可帮助跨境企业更高效的进行海外业务的营销推广，有效降低企业获客成本。",
+    "doc_url": "https://partners.vmcardio.com/docs/B2-kua-jing-zi-yuan-she-qu",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install B2-kua-jing-zi-yuan-she-qu",
+      "plugin:config B2-kua-jing-zi-yuan-she-qu",
+      "plugin:use B2-kua-jing-zi-yuan-she-qu"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "BIAI-yun-kong",
+    "name": "BIAI云控",
+    "category": "other",
+    "description": "BIAI云控，只要准备一台电脑就可以跑起来的矩阵平台",
+    "doc_url": "https://partners.vmcardio.com/docs/BIAI-yun-kong",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install BIAI-yun-kong",
+      "plugin:config BIAI-yun-kong",
+      "plugin:use BIAI-yun-kong"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "BrowserScan",
+    "name": "BrowserScan",
+    "category": "fingerprint_browser",
+    "description": "最好的浏览器指纹检测工具。",
+    "doc_url": "https://partners.vmcardio.com/docs/BrowserScan",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install BrowserScan",
+      "plugin:config BrowserScan",
+      "plugin:use BrowserScan"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Cloaking-House",
+    "name": "Cloaking.House",
+    "category": "other",
+    "description": "Cloaking House is a cloud-based cloaking service using machine learning to filter traffic and protect ad campaigns from bots, moderators, and competitors.",
+    "doc_url": "https://partners.vmcardio.com/docs/Cloaking-House",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Cloaking-House",
+      "plugin:config Cloaking-House",
+      "plugin:use Cloaking-House"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "ClonBrowser-zhi-wen-liu-lan-qi",
+    "name": "ClonBrowser指纹浏览器",
+    "category": "fingerprint_browser",
+    "description": "多账号安全管理，就用ClonBrowser。专业指纹浏览器，安全编辑浏览器指纹，无缝对接各大平台，为您提供高效、可控的批量运营体验。",
+    "doc_url": "https://partners.vmcardio.com/docs/ClonBrowser-zhi-wen-liu-lan-qi",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install ClonBrowser-zhi-wen-liu-lan-qi",
+      "plugin:config ClonBrowser-zhi-wen-liu-lan-qi",
+      "plugin:use ClonBrowser-zhi-wen-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "DICloak",
+    "name": "DICloak",
+    "category": "other",
+    "description": "DICloak是一款专业的指纹浏览器，专注于多账号管理和账号防关联，旨在让您的网络活动更加安全",
+    "doc_url": "https://partners.vmcardio.com/docs/DICloak",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install DICloak",
+      "plugin:config DICloak",
+      "plugin:use DICloak"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Fansgurus",
+    "name": "Fansgurus",
+    "category": "other",
+    "description": "Fansgurus亚洲最大的的社交媒体刷粉平台",
+    "doc_url": "https://partners.vmcardio.com/docs/Fansgurus",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Fansgurus",
+      "plugin:config Fansgurus",
+      "plugin:use Fansgurus"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Fansgurus-shua-fen-zhang-fen-ping-tai",
+    "name": "Fansgurus｜刷粉涨粉平台",
+    "category": "other",
+    "description": "海外社媒涨粉刷粉首选平台",
+    "doc_url": "https://partners.vmcardio.com/docs/Fansgurus-shua-fen-zhang-fen-ping-tai",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Fansgurus-shua-fen-zhang-fen-ping-tai",
+      "plugin:config Fansgurus-shua-fen-zhang-fen-ping-tai",
+      "plugin:use Fansgurus-shua-fen-zhang-fen-ping-tai"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Geeksend-you-jian-ying-xiao",
+    "name": "Geeksend邮件营销",
+    "category": "other",
+    "description": "Geeksend是一款集获客、营销和推广功能的自动化管理邮件平台，包含四大核心模块：邮箱查找、邮箱验证、邮件群发和外贸CRM。",
+    "doc_url": "https://partners.vmcardio.com/docs/Geeksend-you-jian-ying-xiao",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Geeksend-you-jian-ying-xiao",
+      "plugin:config Geeksend-you-jian-ying-xiao",
+      "plugin:use Geeksend-you-jian-ying-xiao"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "HWZYK-hai-wai-mei-jie-zi-yuan-ku",
+    "name": "HWZYK海外媒介资源库",
+    "category": "other",
+    "description": "专注海外媒介直采，聚焦海外垂直媒体、户外广告、电商带货、社媒效果投放、谷歌 SEO、出海内容制作等核心推广领域，一手直采、平价服务 。",
+    "doc_url": "https://partners.vmcardio.com/docs/HWZYK-hai-wai-mei-jie-zi-yuan-ku",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install HWZYK-hai-wai-mei-jie-zi-yuan-ku",
+      "plugin:config HWZYK-hai-wai-mei-jie-zi-yuan-ku",
+      "plugin:use HWZYK-hai-wai-mei-jie-zi-yuan-ku"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Hiddence",
+    "name": "Hiddence 提供专注于隐私、便利性和可靠性的 VPS/VDS 服务——非常适合重视在线匿名性和稳定服务器性能的用户。",
+    "category": "other",
+    "description": "使用优惠码 VMCARD 可享受 25% 折扣。",
+    "doc_url": "https://partners.vmcardio.com/docs/Hiddence",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Hiddence",
+      "plugin:config Hiddence",
+      "plugin:use Hiddence"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Juytui-she-mei-fa-bu-ju-he-xi-tong",
+    "name": "Juytui社媒发布聚合系统",
+    "category": "other",
+    "description": "支持免费试用，对接主流社媒平台官方API接口，不用翻墙，一键即可发布各大平台，聚合管理询盘，自动AI回复评论私信，是外贸内容运营好帮手！",
+    "doc_url": "https://partners.vmcardio.com/docs/Juytui-she-mei-fa-bu-ju-he-xi-tong",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Juytui-she-mei-fa-bu-ju-he-xi-tong",
+      "plugin:config Juytui-she-mei-fa-bu-ju-he-xi-tong",
+      "plugin:use Juytui-she-mei-fa-bu-ju-he-xi-tong"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "LIKE-TG-kua-jing-ruan-jian-fu-wu-shang",
+    "name": "LIKE.TG 跨境软件服务商",
+    "category": "other",
+    "description": "LIKE.TG专注于为跨境营销业务提供全球营销软件及营销服务，自有产品研发团队、技术团队150+人，可为您提供营销产品直销、OEM服务，同时提供免费的汇率查询、地址交易记录查询、防骗查询等服务。",
+    "doc_url": "https://partners.vmcardio.com/docs/LIKE-TG-kua-jing-ruan-jian-fu-wu-shang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install LIKE-TG-kua-jing-ruan-jian-fu-wu-shang",
+      "plugin:config LIKE-TG-kua-jing-ruan-jian-fu-wu-shang",
+      "plugin:use LIKE-TG-kua-jing-ruan-jian-fu-wu-shang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Linken-Sphere",
+    "name": "Linken Sphere",
+    "category": "other",
+    "description": "Linken Sphere 是进行多账户操作的理想选择，可以提升工作效率，并可靠地保护您免受因浏览器指纹参数导致的封禁和阻断。",
+    "doc_url": "https://partners.vmcardio.com/docs/Linken-Sphere",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Linken-Sphere",
+      "plugin:config Linken-Sphere",
+      "plugin:use Linken-Sphere"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Linux-xue-xi-vps-fen-xiang-wang-luo-zi-yuan-shi-yong-ji-shu",
+    "name": "Linux学习，vps分享，网络资源，实用技术",
+    "category": "other",
+    "description": "Linux学习，vps分享，网络资源，实用技术",
+    "doc_url": "https://partners.vmcardio.com/docs/Linux-xue-xi-vps-fen-xiang-wang-luo-zi-yuan-shi-yong-ji-shu",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Linux-xue-xi-vps-fen-xiang-wang-luo-zi-yuan-shi-yong-ji-shu",
+      "plugin:config Linux-xue-xi-vps-fen-xiang-wang-luo-zi-yuan-shi-yong-ji-shu",
+      "plugin:use Linux-xue-xi-vps-fen-xiang-wang-luo-zi-yuan-shi-yong-ji-shu"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Maslogin",
+    "name": "Maslogin",
+    "category": "fingerprint_browser",
+    "description": "MasLogin 是全球领先的防检测指纹浏览器，专为多账号运营而生。通过独立浏览器指纹与环境隔离技术，大幅降低账号关联与封号风险，提升整体稳定性与成功率。支持批量环境、窗口同步与自动化操作，显著提高运营效率。凭借极高性价比与灵活套餐，MasLogin 已成为跨境电商、社媒与广告团队的首选工具。",
+    "doc_url": "https://partners.vmcardio.com/docs/Maslogin",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install Maslogin",
+      "plugin:config Maslogin",
+      "plugin:use Maslogin"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Mostlogin",
+    "name": "MostLogin",
+    "category": "fingerprint_browser",
+    "description": "MostLogin，一款完全免费的防关联指纹浏览器，包含：云手机+免费的API接口/RPA自动化/群控同步系统/团队管理等功能！",
+    "doc_url": "https://partners.vmcardio.com/docs/Mostlogin",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install Mostlogin",
+      "plugin:config Mostlogin",
+      "plugin:use Mostlogin"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "NestBrowser",
+    "name": "NestBrowser",
+    "category": "fingerprint_browser",
+    "description": "NestBrowser官网：指纹浏览器 + 蜂巢云盒云手机, 跨境电商防关联隐私指纹浏览器，让多账号管理更安全",
+    "doc_url": "https://partners.vmcardio.com/docs/NestBrowser",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install NestBrowser",
+      "plugin:config NestBrowser",
+      "plugin:use NestBrowser"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "OKBrowser",
+    "name": "OKBrowser",
+    "category": "fingerprint_browser",
+    "description": "OKBrowser是首家私有化部署指纹浏览器平台，以用户安全为目标是企业的使命。",
+    "doc_url": "https://partners.vmcardio.com/docs/OKBrowser",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install OKBrowser",
+      "plugin:config OKBrowser",
+      "plugin:use OKBrowser"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "UniMessenger",
+    "name": "Unimessenger",
+    "category": "other",
+    "description": "P",
+    "doc_url": "https://partners.vmcardio.com/docs/UniMessenger",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install UniMessenger",
+      "plugin:config UniMessenger",
+      "plugin:use UniMessenger"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "PartnerShare-zeng-zhang-yin-qing",
+    "name": "PartnerShare增长引擎",
+    "category": "other",
+    "description": "PartnerShare快速的产品营销增长工具，全球顶级流量联盟，让您的产品增长快人一步",
+    "doc_url": "https://partners.vmcardio.com/docs/PartnerShare-zeng-zhang-yin-qing",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install PartnerShare-zeng-zhang-yin-qing",
+      "plugin:config PartnerShare-zeng-zhang-yin-qing",
+      "plugin:use PartnerShare-zeng-zhang-yin-qing"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "PolyLang-duo-yu-yan-du-li-zhan-xi-tong",
+    "name": "PolyLang多语言独立站系统",
+    "category": "other",
+    "description": "7年自主研发PolyLang多语言独立站系统，常年专注多语言外贸独立站搭建，PolyLang是外贸独立站系统&Google SEO源头厂家，为你量身定制企业外贸网站制作，外贸网站推广，为你打造一个全球外贸营销利器！",
+    "doc_url": "https://partners.vmcardio.com/docs/PolyLang-duo-yu-yan-du-li-zhan-xi-tong",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install PolyLang-duo-yu-yan-du-li-zhan-xi-tong",
+      "plugin:config PolyLang-duo-yu-yan-du-li-zhan-xi-tong",
+      "plugin:use PolyLang-duo-yu-yan-du-li-zhan-xi-tong"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Saibo-kua-jing-dao-hang",
+    "name": "Saibo跨境导航",
+    "category": "other",
+    "description": "学习跨境干货，分享跨境资源",
+    "doc_url": "https://partners.vmcardio.com/docs/Saibo-kua-jing-dao-hang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Saibo-kua-jing-dao-hang",
+      "plugin:config Saibo-kua-jing-dao-hang",
+      "plugin:use Saibo-kua-jing-dao-hang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "VMOSCloud",
+    "name": "VMOSCloud",
+    "category": "other",
+    "description": "VMOS Cloud——全球领先的安卓云手机，开启高效多开与畅玩全球应用的全新体验！云端畅玩游戏，管理社交账号，轻松实现多开应用、挂机养号、远程操控，随时随地尽享便捷。",
+    "doc_url": "https://partners.vmcardio.com/docs/VMOSCloud",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install VMOSCloud",
+      "plugin:config VMOSCloud",
+      "plugin:use VMOSCloud"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "XD-dao-hang",
+    "name": "XD导航",
+    "category": "other",
+    "description": "XD导航是一个专业AI工具导航平台，为您推荐各行业优秀的AI Agent、网站、APP和软件。通过精细化分类和职业化推荐，为用户提供更好的AI运用服务。",
+    "doc_url": "https://partners.vmcardio.com/docs/XD-dao-hang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install XD-dao-hang",
+      "plugin:config XD-dao-hang",
+      "plugin:use XD-dao-hang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "wivo-cc-kua-jing-dian-shang-AI-dao-hang",
+    "name": "wivo.cc跨境电商AI导航",
+    "category": "other",
+    "description": "wivo.cc致力于做小而精的跨境电商AI导航网，为跨境电商卖家提供一站式AI工具、资讯和攻略，我们的使命是帮助跨境电商卖家不断实现盈利能力的提升。",
+    "doc_url": "https://partners.vmcardio.com/docs/wivo-cc-kua-jing-dian-shang-AI-dao-hang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install wivo-cc-kua-jing-dian-shang-AI-dao-hang",
+      "plugin:config wivo-cc-kua-jing-dian-shang-AI-dao-hang",
+      "plugin:use wivo-cc-kua-jing-dian-shang-AI-dao-hang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "maslogin-zhi-wen-liu-lan-qi",
+    "name": "• 支持自动化与 API 的批量环境管理",
+    "category": "fingerprint_browser",
+    "description": "• 可无缝配合住宅代理、移动代理和数据中心代理使用",
+    "doc_url": "https://partners.vmcardio.com/docs/maslogin-zhi-wen-liu-lan-qi",
+    "api_type": "sdk",
+    "commands": [
+      "plugin:install maslogin-zhi-wen-liu-lan-qi",
+      "plugin:config maslogin-zhi-wen-liu-lan-qi",
+      "plugin:use maslogin-zhi-wen-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "yi-he-kua-jing",
+    "name": "一合跨境",
+    "category": "other",
+    "description": "一合跨境全球跨境社区 跨境资源整合全站",
+    "doc_url": "https://partners.vmcardio.com/docs/yi-he-kua-jing",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install yi-he-kua-jing",
+      "plugin:config yi-he-kua-jing",
+      "plugin:use yi-he-kua-jing"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "yun-deng-zhi-wen-liu-lan-qi-mXyC",
+    "name": "云登指纹浏览器",
+    "category": "other",
+    "description": "免费的跨境安全账号管理专家",
+    "doc_url": "https://partners.vmcardio.com/docs/yun-deng-zhi-wen-liu-lan-qi-mXyC",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install yun-deng-zhi-wen-liu-lan-qi-mXyC",
+      "plugin:config yun-deng-zhi-wen-liu-lan-qi-mXyC",
+      "plugin:use yun-deng-zhi-wen-liu-lan-qi-mXyC"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "hou-niao-zhi-wen-liu-lan-qi",
+    "name": "候鸟指纹浏览器是一款为多账号防关联而生的指纹浏览器，为每个账号提供独立的浏览器运行环境，保障账号之间互不关联。",
+    "category": "other",
+    "description": "候鸟指纹浏览器通过修改浏览器指纹阻止任何网站读取您真实的指纹信息，从而达到防追踪的目的。完美替代VPS、虚拟机等传统的账号防关联方式，解决一台电脑同时登陆运营多个账号的使用场景。",
+    "doc_url": "https://partners.vmcardio.com/docs/hou-niao-zhi-wen-liu-lan-qi",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install hou-niao-zhi-wen-liu-lan-qi",
+      "plugin:config hou-niao-zhi-wen-liu-lan-qi",
+      "plugin:use hou-niao-zhi-wen-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "liu-er-AI-gong-ju-dao-hang-zhan",
+    "name": "六耳AI 工具导航站",
+    "category": "other",
+    "description": "分享上千+丰富的 AI 智能体，写作，绘画，视频，音频等各种垂直场景应用，还有各种有趣的独立开发者的 AI 应用。",
+    "doc_url": "https://partners.vmcardio.com/docs/liu-er-AI-gong-ju-dao-hang-zhan",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install liu-er-AI-gong-ju-dao-hang-zhan",
+      "plugin:config liu-er-AI-gong-ju-dao-hang-zhan",
+      "plugin:use liu-er-AI-gong-ju-dao-hang-zhan"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "chu-hai-jiang",
+    "name": "出海匠",
+    "category": "other",
+    "description": "出海匠｜出海企业首推的全球电商智能营销平台，查爆品+做视频一套搞定，懂数据的AI 营销神器。",
+    "doc_url": "https://partners.vmcardio.com/docs/chu-hai-jiang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install chu-hai-jiang",
+      "plugin:config chu-hai-jiang",
+      "plugin:use chu-hai-jiang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "chu-hai-wang",
+    "name": "出海网",
+    "category": "other",
+    "description": "出海网是领先的企业跨境出海综合服务平台，旗下涵盖CHWE全球跨境电商展、海潮品牌出海及海贝分销三大主营产品。提供出海快讯、新手指南、出海报告、全球开店、海外本土服务及出海社群等六大内容级服务。出海网让中国企业出海更容易！",
+    "doc_url": "https://partners.vmcardio.com/docs/chu-hai-wang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install chu-hai-wang",
+      "plugin:config chu-hai-wang",
+      "plugin:use chu-hai-wang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Saibo-kua-jing-bi-ji",
+    "name": "分享跨境干货，整合行业资源，学习建站知识。",
+    "category": "other",
+    "description": "介绍：SHOPYY精品独立站搭建，SHOPOEM、SHOPLINKS站群系统搭建，国内知名SAAS系统独立站建站；Wordpress+Woocommerce建站；跨境资讯、行业资源、教学心得阅读。",
+    "doc_url": "https://partners.vmcardio.com/docs/Saibo-kua-jing-bi-ji",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Saibo-kua-jing-bi-ji",
+      "plugin:config Saibo-kua-jing-bi-ji",
+      "plugin:use Saibo-kua-jing-bi-ji"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "qian-xiu-da-shu-ju",
+    "name": "前嗅大数据",
+    "category": "other",
+    "description": "数据智能采集挖掘分析",
+    "doc_url": "https://partners.vmcardio.com/docs/qian-xiu-da-shu-ju",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install qian-xiu-da-shu-ju",
+      "plugin:config qian-xiu-da-shu-ju",
+      "plugin:use qian-xiu-da-shu-ju"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "hoax-tech",
+    "name": "基于 JS 指纹技术与神经网络的智能隐藏服务。",
+    "category": "other",
+    "description": "自 2020 年稳定运行，提供 7 天免费试用。",
+    "doc_url": "https://partners.vmcardio.com/docs/hoax-tech",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install hoax-tech",
+      "plugin:config hoax-tech",
+      "plugin:use hoax-tech"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "wai-mao-zhang-hao-pi-fa",
+    "name": "外贸账号批发",
+    "category": "other",
+    "description": "外贸号外作为行业领先的海外账号在线购买批发平台, 已累计为上万家外贸企业提供专业服务. 我们专注于批发出售各类海外社交媒体账号, 帮助您在海外社交媒体平台获得更多关注以及曝光.",
+    "doc_url": "https://partners.vmcardio.com/docs/wai-mao-zhang-hao-pi-fa",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install wai-mao-zhang-hao-pi-fa",
+      "plugin:config wai-mao-zhang-hao-pi-fa",
+      "plugin:use wai-mao-zhang-hao-pi-fa"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "ju-yi-tui-hai-wai-she-mei-yin-liu-xi-tong",
+    "name": "巨易推海外社媒引流系统",
+    "category": "other",
+    "description": "支持免费试用，对接主流社媒平台官方API接口，拥有TK-FB-INS-WS--TG-YouTobe-油管-客服系统等多款海外获客工具，助力中国企业出海营销，引领外贸客户开发进入主动式营销新时代。",
+    "doc_url": "https://partners.vmcardio.com/docs/ju-yi-tui-hai-wai-she-mei-yin-liu-xi-tong",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install ju-yi-tui-hai-wai-she-mei-yin-liu-xi-tong",
+      "plugin:config ju-yi-tui-hai-wai-she-mei-yin-liu-xi-tong",
+      "plugin:use ju-yi-tui-hai-wai-she-mei-yin-liu-xi-tong"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "kuai-yang-tao-zhi-wen-liu-lan-qi",
+    "name": "快洋淘指纹浏览器",
+    "category": "other",
+    "description": "致力于安全稳定的跨境电商指纹浏览器",
+    "doc_url": "https://partners.vmcardio.com/docs/kuai-yang-tao-zhi-wen-liu-lan-qi",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install kuai-yang-tao-zhi-wen-liu-lan-qi",
+      "plugin:config kuai-yang-tao-zhi-wen-liu-lan-qi",
+      "plugin:use kuai-yang-tao-zhi-wen-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "kun-peng-kua-jing-dian-shang-zi-dong-hua-xi-tong",
+    "name": "我们专注于自动化、智能化，为跨境电商用户提供高效、稳定、可扩展的技术支持，让全球电商运营",
+    "category": "other",
+    "description": "我们专注于自动化、智能化，为跨境电商用户提供高效、稳定、可扩展的技术支持，让全球电商运营",
+    "doc_url": "https://partners.vmcardio.com/docs/kun-peng-kua-jing-dian-shang-zi-dong-hua-xi-tong",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install kun-peng-kua-jing-dian-shang-zi-dong-hua-xi-tong",
+      "plugin:config kun-peng-kua-jing-dian-shang-zi-dong-hua-xi-tong",
+      "plugin:use kun-peng-kua-jing-dian-shang-zi-dong-hua-xi-tong"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "shan-zi-kua-jing",
+    "name": "扇子跨境",
+    "category": "other",
+    "description": "扇子跨境专注为跨境企业、电商卖家及多账号运营团队提供安全、高效、智能的浏览器指纹管理服务，通过防关联等技术，确保您的业务账号安全无忧，同时集成轻量化协同工具（项目管理、OA审批等），助力团队高效协作。",
+    "doc_url": "https://partners.vmcardio.com/docs/shan-zi-kua-jing",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install shan-zi-kua-jing",
+      "plugin:config shan-zi-kua-jing",
+      "plugin:use shan-zi-kua-jing"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "bai-bai-dao-hang",
+    "name": "拜拜导航",
+    "category": "other",
+    "description": "一个为白领而生的专业资源导航网站",
+    "doc_url": "https://partners.vmcardio.com/docs/bai-bai-dao-hang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install bai-bai-dao-hang",
+      "plugin:config bai-bai-dao-hang",
+      "plugin:use bai-bai-dao-hang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "xing-huo-zhi-wen-liu-lan-qi",
+    "name": "星火指纹浏览器",
+    "category": "other",
+    "description": "极具性价比的指纹浏览器,低至5元每月",
+    "doc_url": "https://partners.vmcardio.com/docs/xing-huo-zhi-wen-liu-lan-qi",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install xing-huo-zhi-wen-liu-lan-qi",
+      "plugin:config xing-huo-zhi-wen-liu-lan-qi",
+      "plugin:use xing-huo-zhi-wen-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "zhi-wen-zhi-wen-liu-lan-qi",
+    "name": "智纹指纹浏览器",
+    "category": "other",
+    "description": "免费，高性价比，防关联，多账号神器，安全，高效",
+    "doc_url": "https://partners.vmcardio.com/docs/zhi-wen-zhi-wen-liu-lan-qi",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install zhi-wen-zhi-wen-liu-lan-qi",
+      "plugin:config zhi-wen-zhi-wen-liu-lan-qi",
+      "plugin:use zhi-wen-zhi-wen-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "TWT-Chat",
+    "name": "智能客户服务工具",
+    "category": "other",
+    "description": "集AI客服、在线聊天、音视频通话与远程协助于一体的全渠道客户服务解决方案，简单易用，提升客户满意度与转化率。",
+    "doc_url": "https://partners.vmcardio.com/docs/TWT-Chat",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install TWT-Chat",
+      "plugin:config TWT-Chat",
+      "plugin:use TWT-Chat"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "leng-jing-liu-lan",
+    "name": "棱镜浏览",
+    "category": "other",
+    "description": "免费环境无上限，个人用户免费用",
+    "doc_url": "https://partners.vmcardio.com/docs/leng-jing-liu-lan",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install leng-jing-liu-lan",
+      "plugin:config leng-jing-liu-lan",
+      "plugin:use leng-jing-liu-lan"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "hai-wai-she-mei-zhang-hao",
+    "name": "海外社媒账号",
+    "category": "other",
+    "description": "Acc海外账号网是专业的海外社媒账户交易平台， 超过6年运营经验，我们专注于服务外贸行业, 为企业提供海外各类平台运营资源服务，致力于为企业出海提供便利，降低企业运营成本，提高企业效率和竞争力。",
+    "doc_url": "https://partners.vmcardio.com/docs/hai-wai-she-mei-zhang-hao",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install hai-wai-she-mei-zhang-hao",
+      "plugin:config hai-wai-she-mei-zhang-hao",
+      "plugin:use hai-wai-she-mei-zhang-hao"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "hai-wai-she-mei-zhang-hao-gou-mai-ping-tai",
+    "name": "海外社媒账号购买平台",
+    "category": "other",
+    "description": "提供多种类型的账号，包括国际版账号、电报老号、电报小号，以及覆盖全球多个国家（如英国、加拿大、俄罗斯、中国等）的定制账号，价格透明，质量保障。支持单号购买和批量批发，满足个人和企业的不同需求。",
+    "doc_url": "https://partners.vmcardio.com/docs/hai-wai-she-mei-zhang-hao-gou-mai-ping-tai",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install hai-wai-she-mei-zhang-hao-gou-mai-ping-tai",
+      "plugin:config hai-wai-she-mei-zhang-hao-gou-mai-ping-tai",
+      "plugin:use hai-wai-she-mei-zhang-hao-gou-mai-ping-tai"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "hai-duo-ke-SeaDocker",
+    "name": "海多客SeaDocker",
+    "category": "other",
+    "description": "东南亚最全的跨境服务平台，您的跨境业务专家，助您轻松跨越国界，实现全球业务拓展。",
+    "doc_url": "https://partners.vmcardio.com/docs/hai-duo-ke-SeaDocker",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install hai-duo-ke-SeaDocker",
+      "plugin:config hai-duo-ke-SeaDocker",
+      "plugin:use hai-duo-ke-SeaDocker"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "chao-yun-ying-gong-ju-xiang",
+    "name": "潮运营工具箱",
+    "category": "other",
+    "description": "便捷运营人的专属流行大全工具箱—潮运营导航",
+    "doc_url": "https://partners.vmcardio.com/docs/chao-yun-ying-gong-ju-xiang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install chao-yun-ying-gong-ju-xiang",
+      "plugin:config chao-yun-ying-gong-ju-xiang",
+      "plugin:use chao-yun-ying-gong-ju-xiang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "huo-yun-liu-lan-qi-WWdB",
+    "name": "火云浏览器",
+    "category": "other",
+    "description": "免费10个环境，不限制插件使用，多账号管理的安全保障。",
+    "doc_url": "https://partners.vmcardio.com/docs/huo-yun-liu-lan-qi-WWdB",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install huo-yun-liu-lan-qi-WWdB",
+      "plugin:config huo-yun-liu-lan-qi-WWdB",
+      "plugin:use huo-yun-liu-lan-qi-WWdB"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "dian-jin-tool4seller",
+    "name": "点金tool4seller",
+    "category": "other",
+    "description": "亚马逊一站式店铺数据运营系统，提供从选品到运营的全流程管理工具，拥有功能完善的APP版本，方便掌上看数据。",
+    "doc_url": "https://partners.vmcardio.com/docs/dian-jin-tool4seller",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install dian-jin-tool4seller",
+      "plugin:config dian-jin-tool4seller",
+      "plugin:use dian-jin-tool4seller"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "you-Boomlify-ti-gong-de-lin-shi-you-xiang",
+    "name": "由 Boomlify 提供的临时邮箱",
+    "category": "other",
+    "description": "Boomlify 提供长效一次性邮箱、多域名、无需注册、自定义地址、云端 2FA 管理器、跨设备访问及开发者 API。",
+    "doc_url": "https://partners.vmcardio.com/docs/you-Boomlify-ti-gong-de-lin-shi-you-xiang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install you-Boomlify-ti-gong-de-lin-shi-you-xiang",
+      "plugin:config you-Boomlify-ti-gong-de-lin-shi-you-xiang",
+      "plugin:use you-Boomlify-ti-gong-de-lin-shi-you-xiang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "shuafen",
+    "name": "社交媒体一站式服务平台",
+    "category": "other",
+    "description": "便宜、快速、丰富的社媒服务",
+    "doc_url": "https://partners.vmcardio.com/docs/shuafen",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install shuafen",
+      "plugin:config shuafen",
+      "plugin:use shuafen"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "hua-yang-zhi-wen-liu-lan-qi",
+    "name": "花漾指纹浏览器",
+    "category": "other",
+    "description": "花漾灵动，您跨境卖家和社媒运营者的首选之选！多账号防关联，让您轻松应对挑战。浏览器和手机App自动化功能，为您的业务注入灵活性和效率。让我们成为您安全运营的利器。",
+    "doc_url": "https://partners.vmcardio.com/docs/hua-yang-zhi-wen-liu-lan-qi",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install hua-yang-zhi-wen-liu-lan-qi",
+      "plugin:config hua-yang-zhi-wen-liu-lan-qi",
+      "plugin:use hua-yang-zhi-wen-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "kua-jing-wei-shi",
+    "name": "跨境卫士隶属于天津云脉三六五科技有限公司，致力于用计算机科学技术、运维手段为跨境电商提供固定、安全、独立的账号操作环境。",
+    "category": "other",
+    "description": "专注跨境电商账号安全运营 账号安全才是第一生产力",
+    "doc_url": "https://partners.vmcardio.com/docs/kua-jing-wei-shi",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install kua-jing-wei-shi",
+      "plugin:config kua-jing-wei-shi",
+      "plugin:use kua-jing-wei-shi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "kua-jing-gu",
+    "name": "跨境谷",
+    "category": "other",
+    "description": "DTC品牌出海解决方案商",
+    "doc_url": "https://partners.vmcardio.com/docs/kua-jing-gu",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install kua-jing-gu",
+      "plugin:config kua-jing-gu",
+      "plugin:use kua-jing-gu"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "tu-wen-liu-lan-qi",
+    "name": "途纹浏览器",
+    "category": "other",
+    "description": "助力跨境商家，跨境小白、工作室轻松，跨境电商账号安全与多店铺运营的技术指南。",
+    "doc_url": "https://partners.vmcardio.com/docs/tu-wen-liu-lan-qi",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install tu-wen-liu-lan-qi",
+      "plugin:config tu-wen-liu-lan-qi",
+      "plugin:use tu-wen-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "zao-xin-ying-xiao",
+    "name": "造新营销",
+    "category": "other",
+    "description": "造新Beyondnext是一家专注为中国品牌在国际市场提供整合营销的服务机构",
+    "doc_url": "https://partners.vmcardio.com/docs/zao-xin-ying-xiao",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install zao-xin-ying-xiao",
+      "plugin:config zao-xin-ying-xiao",
+      "plugin:use zao-xin-ying-xiao"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "ge-bi-dao-hang",
+    "name": "隔壁导航",
+    "category": "other",
+    "description": "涵盖全球跨境电商平台/运营教程/跨境资讯/跨境工具等资源。",
+    "doc_url": "https://partners.vmcardio.com/docs/ge-bi-dao-hang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install ge-bi-dao-hang",
+      "plugin:config ge-bi-dao-hang",
+      "plugin:use ge-bi-dao-hang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "she-mei-shua-fen-ping-tai",
+    "name": "| YouTube",
+    "category": "other",
+    "description": "海外社交媒体一站式服务平台",
+    "doc_url": "https://partners.vmcardio.com/docs/she-mei-shua-fen-ping-tai",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install she-mei-shua-fen-ping-tai",
+      "plugin:config she-mei-shua-fen-ping-tai",
+      "plugin:use she-mei-shua-fen-ping-tai"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "jian-yuan-ling-hang",
+    "name": "| 外贸跨境电商导航",
+    "category": "other",
+    "description": "| 为外贸出口和跨境电商而生！ 提供外贸进出口，跨境电商出海，亚马逊全球一站式平台，资源，信息，工具，资讯，服务聚合，助力外贸B2B，跨境B2C, 外贸SOHO多渠道业务拓展，促进跨境贸易生态繁荣。",
+    "doc_url": "https://partners.vmcardio.com/docs/jian-yuan-ling-hang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install jian-yuan-ling-hang",
+      "plugin:config jian-yuan-ling-hang",
+      "plugin:use jian-yuan-ling-hang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "huo-bao-liu-lan-qi",
+    "name": "火豹浏览器",
+    "category": "other",
+    "description": "火豹浏览器，专为跨境电商卖家提供安全、可靠的店铺运营工具，支持多个跨境电商平台，包括国内和国外的全部电商前台、电商后台、独立站、支付平台、邮箱平台、合规社媒平台等。使用全球主流的Chrome内核和Firefox内核进行深度开发，并进行了数百项优化，有效的提升了网页浏览速度。此外，深度整合跨境电商工具和流量资源，为跨境用户提供一站式解决方案，让跨境访问变得更加便捷。",
+    "doc_url": "https://partners.vmcardio.com/docs/huo-bao-liu-lan-qi",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install huo-bao-liu-lan-qi",
+      "plugin:config huo-bao-liu-lan-qi",
+      "plugin:use huo-bao-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPIPD",
+    "name": "24在线服务。",
+    "category": "proxy",
+    "description": "简介（短）：全球原生优质住宅ip",
+    "doc_url": "https://partners.vmcardio.com/docs/IPIPD",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPIPD",
+      "plugin:config IPIPD",
+      "plugin:use IPIPD"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPRoyal",
+    "name": "高达75%的批量购买折扣",
+    "category": "proxy",
+    "description": "通过在线聊天、电子邮件和Discord提供24/7全时段支持",
+    "doc_url": "https://partners.vmcardio.com/docs/IPRoyal",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPRoyal",
+      "plugin:config IPRoyal",
+      "plugin:use IPRoyal"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "360Proxy",
+    "name": "360Proxy",
+    "category": "proxy",
+    "description": "360Proxy - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/360Proxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install 360Proxy",
+      "plugin:config 360Proxy",
+      "plugin:use 360Proxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IP-Mars-proxy",
+    "name": "Ip Mars Proxy",
+    "category": "proxy",
+    "description": "Ip Mars Proxy - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/IP-Mars-proxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IP-Mars-proxy",
+      "plugin:config IP-Mars-proxy",
+      "plugin:use IP-Mars-proxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPnews",
+    "name": "Ipnews",
+    "category": "proxy",
+    "description": "Ipnews - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/IPnews",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPnews",
+      "plugin:config IPnews",
+      "plugin:use IPnews"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "NovaProxy",
+    "name": "Novaproxy",
+    "category": "proxy",
+    "description": "Novaproxy - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/NovaProxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install NovaProxy",
+      "plugin:config NovaProxy",
+      "plugin:use NovaProxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "ProxyRed",
+    "name": "Proxyred",
+    "category": "proxy",
+    "description": "Proxyred - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/ProxyRed",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install ProxyRed",
+      "plugin:config ProxyRed",
+      "plugin:use ProxyRed"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "PSBProxy",
+    "name": "Psbproxy",
+    "category": "proxy",
+    "description": "Psbproxy - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/PSBProxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install PSBProxy",
+      "plugin:config PSBProxy",
+      "plugin:use PSBProxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "SX-ORG",
+    "name": "RG",
+    "category": "proxy",
+    "description": "SX.ORG is the first proxy marketplace with over 12 million clean IP addresses across 235 countries. All proxy types available: mobile, residential, and corporate. All rotation types, fle",
+    "doc_url": "https://partners.vmcardio.com/docs/SX-ORG",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install SX-ORG",
+      "plugin:config SX-ORG",
+      "plugin:use SX-ORG"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Thordata-Cheap-and-useful-residential-proxy",
+    "name": "Thordata Cheap And Useful Residential Proxy",
+    "category": "proxy",
+    "description": "Thordata Cheap And Useful Residential Proxy - Cross-border tool partner",
+    "doc_url": "https://partners.vmcardio.com/docs/Thordata-Cheap-and-useful-residential-proxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Thordata-Cheap-and-useful-residential-proxy",
+      "plugin:config Thordata-Cheap-and-useful-residential-proxy",
+      "plugin:use Thordata-Cheap-and-useful-residential-proxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "AEZAKMI-ANTIDETECT",
+    "name": "ZAKMI ANTIDETECT",
+    "category": "proxy",
+    "description": "AEZAKMI is an anti-detection browser for secure multi-account work. Browser fingerprinting can be replaced, proxy support is supported, and isolated profiles are available.",
+    "doc_url": "https://partners.vmcardio.com/docs/AEZAKMI-ANTIDETECT",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install AEZAKMI-ANTIDETECT",
+      "plugin:config AEZAKMI-ANTIDETECT",
+      "plugin:use AEZAKMI-ANTIDETECT"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "1024proxy",
+    "name": "1024proxy",
+    "category": "proxy",
+    "description": "支持免费试用，流量套餐只需$0.49/GB，独立IP池，每日更新10w+ips，提供低价优质IP",
+    "doc_url": "https://partners.vmcardio.com/docs/1024proxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install 1024proxy",
+      "plugin:config 1024proxy",
+      "plugin:use 1024proxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "9Proxy",
+    "name": "24 小时内可免费重复使用已用代理。",
+    "category": "proxy",
+    "description": "支持 HTTP/HTTPS 和 SOCKS5 协议。",
+    "doc_url": "https://partners.vmcardio.com/docs/9Proxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install 9Proxy",
+      "plugin:config 9Proxy",
+      "plugin:use 9Proxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "B2proxy-hai-wai-zhu-zhai-dai-li",
+    "name": "8000万纯净住宅IP池，动态流量免费试用，7",
+    "category": "proxy",
+    "description": "24小时技术支持，vmcard用户联系客服即可获得1GB免费流量测试！",
+    "doc_url": "https://partners.vmcardio.com/docs/B2proxy-hai-wai-zhu-zhai-dai-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install B2proxy-hai-wai-zhu-zhai-dai-li",
+      "plugin:config B2proxy-hai-wai-zhu-zhai-dai-li",
+      "plugin:use B2proxy-hai-wai-zhu-zhai-dai-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "91HTTP-dai-li",
+    "name": "91HTTP代理",
+    "category": "proxy",
+    "description": "国内专业级代理IP服务提供商；提供稳定短效、长效高品质的HTTP、SOCKS5代理IP，及更高匿名的隧道代理、独享(动态/静态)企业级代理IP；每日更新IP池，日去重500万+纯净IP，覆盖国内380+城市，推荐首单仅需8元。",
+    "doc_url": "https://partners.vmcardio.com/docs/91HTTP-dai-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install 91HTTP-dai-li",
+      "plugin:config 91HTTP-dai-li",
+      "plugin:use 91HTTP-dai-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "922-S5-dai-li",
+    "name": "922 S5 代理",
+    "category": "proxy",
+    "description": "一家高质量住宅IP代理服务提供商，拥有超过2亿个真实住宅IP，覆盖190多个国家。",
+    "doc_url": "https://partners.vmcardio.com/docs/922-S5-dai-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install 922-S5-dai-li",
+      "plugin:config 922-S5-dai-li",
+      "plugin:use 922-S5-dai-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "AbcFinger-zhi-wen-liu-lan-qi",
+    "name": "AbcFinger指纹浏览器",
+    "category": "proxy",
+    "description": "好用性价比高，专注于账号环境隔离和安全防护的指纹浏览器。",
+    "doc_url": "https://partners.vmcardio.com/docs/AbcFinger-zhi-wen-liu-lan-qi",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install AbcFinger-zhi-wen-liu-lan-qi",
+      "plugin:config AbcFinger-zhi-wen-liu-lan-qi",
+      "plugin:use AbcFinger-zhi-wen-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Bitbrowser-bi-te-zhi-wen-liu-lan-qi-PixI",
+    "name": "Bitbrowser比特指纹浏览器",
+    "category": "proxy",
+    "description": "比特指纹浏览器，主要实现：多开浏览器窗口、多登账号，防止窗口间产生关联、防止封号，每个窗口可以模拟独立的电脑信息，模拟不同的IP地址，使得相互间完全环境独立、隔离，避免关联封号！",
+    "doc_url": "https://partners.vmcardio.com/docs/Bitbrowser-bi-te-zhi-wen-liu-lan-qi-PixI",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Bitbrowser-bi-te-zhi-wen-liu-lan-qi-PixI",
+      "plugin:config Bitbrowser-bi-te-zhi-wen-liu-lan-qi-PixI",
+      "plugin:use Bitbrowser-bi-te-zhi-wen-liu-lan-qi-PixI"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Blurpath",
+    "name": "Blurpath",
+    "category": "proxy",
+    "description": "专注于提供优质的静态代理和动态代理解决方案，确保用户享受到高速、稳定的网络连接体验。无论是需要长期固定IP地址进行稳定数据访问的用户，还是频繁更换IP以规避限制的数据采集和网络安全测试用户，我们的服务都能满足您的需求，保障连接的可靠性和安全性。",
+    "doc_url": "https://partners.vmcardio.com/docs/Blurpath",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Blurpath",
+      "plugin:config Blurpath",
+      "plugin:use Blurpath"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Cloakerly",
+    "name": "Cloakerly",
+    "category": "proxy",
+    "description": "Description - Advanced cloaking and bot protection to keep your traffic clean",
+    "doc_url": "https://partners.vmcardio.com/docs/Cloakerly",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Cloakerly",
+      "plugin:config Cloakerly",
+      "plugin:use Cloakerly"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "ColaProxy",
+    "name": "ColaProxy",
+    "category": "proxy",
+    "description": "ColaProxy是一家综合型代理服务提供商，专注于为企业和开发者提供稳定、安全、可扩展的代理网络解决方案",
+    "doc_url": "https://partners.vmcardio.com/docs/ColaProxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install ColaProxy",
+      "plugin:config ColaProxy",
+      "plugin:use ColaProxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Coronium-Proxy-Cloud",
+    "name": "Coronium Proxy Cloud",
+    "category": "proxy",
+    "description": "Coronium.io提供优质的4G/5G移动代理服务，采用100%独享实体设备和真实SIM卡。我们的服务覆盖13+国家，具有95%的信任度，完美支持账户管理、网页抓取和访问地理限制内容。",
+    "doc_url": "https://partners.vmcardio.com/docs/Coronium-Proxy-Cloud",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Coronium-Proxy-Cloud",
+      "plugin:config Coronium-Proxy-Cloud",
+      "plugin:use Coronium-Proxy-Cloud"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Croxy",
+    "name": "Croxy",
+    "category": "proxy",
+    "description": "Croxy依托全球顶级代理网络，获取数千万高质量 IP，助力您的网络爬虫项目极速匿名运行。",
+    "doc_url": "https://partners.vmcardio.com/docs/Croxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Croxy",
+      "plugin:config Croxy",
+      "plugin:use Croxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "FLYPROXY",
+    "name": "FLYPROXY",
+    "category": "proxy",
+    "description": "flyproxy优秀的住宅代理服务",
+    "doc_url": "https://partners.vmcardio.com/docs/FLYPROXY",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install FLYPROXY",
+      "plugin:config FLYPROXY",
+      "plugin:use FLYPROXY"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Flyproxy",
+    "name": "Flyproxy",
+    "category": "proxy",
+    "description": "最强大的住宅代理服务，通过我们可靠的代理网络访问全球web数据。告别限制、地理块和验证码。",
+    "doc_url": "https://partners.vmcardio.com/docs/Flyproxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Flyproxy",
+      "plugin:config Flyproxy",
+      "plugin:use Flyproxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "GoProxy",
+    "name": "GoProxy",
+    "category": "proxy",
+    "description": "The best mobile proxies – speeds up to 80 Mbps, 99% uptime, instant IP rotation, and a free trial. Get 5% off with promo code: PARTNER5.",
+    "doc_url": "https://partners.vmcardio.com/docs/GoProxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install GoProxy",
+      "plugin:config GoProxy",
+      "plugin:use GoProxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "GomaskIP",
+    "name": "GomaskIP",
+    "category": "proxy",
+    "description": "全球双ISP静态住宅IP 原生海外动态住宅IP 安全稳定 价格美丽可测试 亿万IP 遍布全球",
+    "doc_url": "https://partners.vmcardio.com/docs/GomaskIP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install GomaskIP",
+      "plugin:config GomaskIP",
+      "plugin:use GomaskIP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IP-quan-qiu-zhu-zhai-dai-li",
+    "name": "IP-全球住宅代理",
+    "category": "proxy",
+    "description": "MOBI IP甄选全球超多地区的海量高匿住宅代理资源，拥有十多个国家的静态真人住宅IP资源。",
+    "doc_url": "https://partners.vmcardio.com/docs/IP-quan-qiu-zhu-zhai-dai-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IP-quan-qiu-zhu-zhai-dai-li",
+      "plugin:config IP-quan-qiu-zhu-zhai-dai-li",
+      "plugin:use IP-quan-qiu-zhu-zhai-dai-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPCOOL",
+    "name": "IPCOOL",
+    "category": "proxy",
+    "description": "全球大数据IP代理服务商",
+    "doc_url": "https://partners.vmcardio.com/docs/IPCOOL",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPCOOL",
+      "plugin:config IPCOOL",
+      "plugin:use IPCOOL"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPCola",
+    "name": "IPCola是市面上所有代理品牌中拥有静态国家最多的，任由用户挑选，代理支持http和socks5。",
+    "category": "proxy",
+    "description": "静态价格为1.8刀/条 ｜ 动态20GB起1.5刀/GB",
+    "doc_url": "https://partners.vmcardio.com/docs/IPCola",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPCola",
+      "plugin:config IPCola",
+      "plugin:use IPCola"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPDEEP-quan-qiu-dai-li-IP",
+    "name": "IPDEEP全球代理IP",
+    "category": "proxy",
+    "description": "IPDEEP提供静态、动态、移动、数据中心IP，新用户注册免费200MB。",
+    "doc_url": "https://partners.vmcardio.com/docs/IPDEEP-quan-qiu-dai-li-IP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPDEEP-quan-qiu-dai-li-IP",
+      "plugin:config IPDEEP-quan-qiu-dai-li-IP",
+      "plugin:use IPDEEP-quan-qiu-dai-li-IP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPFLY",
+    "name": "IPFLY",
+    "category": "proxy",
+    "description": "IPFLY是一家专注于为客户提供高质量代理服务的领先品牌，全球IP网络覆盖200多个国家和地区，为客户提供稳定、安全、高速的代理服务。IPFLY通过全球IP覆盖、技术创新优化、数据隐私与安全保护、多样化解决方案等优势，成功地在代理服务行业中脱颖而出，致力于为客户提供高质量的代理解决方案。",
+    "doc_url": "https://partners.vmcardio.com/docs/IPFLY",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPFLY",
+      "plugin:config IPFLY",
+      "plugin:use IPFLY"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPFlex",
+    "name": "IPFlex",
+    "category": "proxy",
+    "description": "注册赠送￥15免费试用额度！IPFlex提供企业级IP代理解决方案，覆盖全球200+国家，提供高质量静态住宅IP和数据中心动态IP池。支持数据采集、社交媒体管理、广告验证及跨境电商运营，99.9%可用性保证。",
+    "doc_url": "https://partners.vmcardio.com/docs/IPFlex",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPFlex",
+      "plugin:config IPFlex",
+      "plugin:use IPFlex"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPFoxy-chun-jing-dai-li",
+    "name": "IPFoxy纯净代理",
+    "category": "proxy",
+    "description": "IPFoxy是一家提供全球纯净IP代理的服务商，为跨境出海业务提供覆盖全球40多个国家/地区的高质量、价格优惠的独享数据中心IPv4/IPV6代理、ISP住宅代理，助力您开展各种出海业务。",
+    "doc_url": "https://partners.vmcardio.com/docs/IPFoxy-chun-jing-dai-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPFoxy-chun-jing-dai-li",
+      "plugin:config IPFoxy-chun-jing-dai-li",
+      "plugin:use IPFoxy-chun-jing-dai-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPHTML",
+    "name": "IPHTML",
+    "category": "proxy",
+    "description": "高质量动/静态住宅IP代理 安全稳定 快速响应 任意定位 无限并发",
+    "doc_url": "https://partners.vmcardio.com/docs/IPHTML",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPHTML",
+      "plugin:config IPHTML",
+      "plugin:use IPHTML"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPIDEA-quan-qiu-dai-li-IP",
+    "name": "IPIDEA全球代理IP",
+    "category": "proxy",
+    "description": "国内首家全球代理IP服务商，提供220+国家/地区的动、静态IP，亿万IP免费试用",
+    "doc_url": "https://partners.vmcardio.com/docs/IPIDEA-quan-qiu-dai-li-IP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPIDEA-quan-qiu-dai-li-IP",
+      "plugin:config IPIDEA-quan-qiu-dai-li-IP",
+      "plugin:use IPIDEA-quan-qiu-dai-li-IP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPIPGO",
+    "name": "IPIPGO",
+    "category": "proxy",
+    "description": "IPIPGO - 全球代理IP专业服务商，提供适用于各种业务和用例的多种 IP 地址。高性能分布式集群架构，从容应对业务量的爆发增长，完美满足多终端使用需求。",
+    "doc_url": "https://partners.vmcardio.com/docs/IPIPGO",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPIPGO",
+      "plugin:config IPIPGO",
+      "plugin:use IPIPGO"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPOasis",
+    "name": "IPOasis",
+    "category": "proxy",
+    "description": "通往互联网绿洲的代理网关，突破所有边界！IPOasis提供动态/静态/移动代理｜跑通再付费,支持定制,专员1v1对接｜所有ip均支持免费测试！",
+    "doc_url": "https://partners.vmcardio.com/docs/IPOasis",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPOasis",
+      "plugin:config IPOasis",
+      "plugin:use IPOasis"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPPeak-zhu-zhai-dai-li",
+    "name": "IPPeak住宅代理",
+    "category": "proxy",
+    "description": "8000万+新鲜活跃的住宅IP，195+地区资源，住宅代理5折，5GB仅需7.5美元，全天候客户支持，支持免费试用，不限量代理$61/天起",
+    "doc_url": "https://partners.vmcardio.com/docs/IPPeak-zhu-zhai-dai-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPPeak-zhu-zhai-dai-li",
+      "plugin:config IPPeak-zhu-zhai-dai-li",
+      "plugin:use IPPeak-zhu-zhai-dai-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPRocket",
+    "name": "IPRocket",
+    "category": "proxy",
+    "description": "不限速，不限并发的全球高质量动态住宅IP",
+    "doc_url": "https://partners.vmcardio.com/docs/IPRocket",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPRocket",
+      "plugin:config IPRocket",
+      "plugin:use IPRocket"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPWO-quan-qiu-zhu-zhai-dai-li-gong-ying-shang",
+    "name": "IPWO全球住宅代理通过独特的技术清晰方式，针对业务有相对应的优化和帮助，可以针对谷歌必应等浏览器做到针对性优化方案。",
+    "category": "proxy",
+    "description": "IPWO全球住宅代理适用于跨境电商多店铺运营、账号注册、广告联盟、SEO优化、社交媒体营销等多种行业应用。",
+    "doc_url": "https://partners.vmcardio.com/docs/IPWO-quan-qiu-zhu-zhai-dai-li-gong-ying-shang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPWO-quan-qiu-zhu-zhai-dai-li-gong-ying-shang",
+      "plugin:config IPWO-quan-qiu-zhu-zhai-dai-li-gong-ying-shang",
+      "plugin:use IPWO-quan-qiu-zhu-zhai-dai-li-gong-ying-shang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPX-Proxy",
+    "name": "IPXProxy Residential",
+    "category": "proxy",
+    "description": "IPXProxy Residential",
+    "doc_url": "https://partners.vmcardio.com/docs/IPX-Proxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPX-Proxy",
+      "plugin:config IPX-Proxy",
+      "plugin:use IPX-Proxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPdodo-quan-qiu-dai-li",
+    "name": "IPdodo全球代理",
+    "category": "proxy",
+    "description": "静态IP/跨境专线可测试，动态IP免费试用，IPdodo助力业务跨境出海。",
+    "doc_url": "https://partners.vmcardio.com/docs/IPdodo-quan-qiu-dai-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPdodo-quan-qiu-dai-li",
+      "plugin:config IPdodo-quan-qiu-dai-li",
+      "plugin:use IPdodo-quan-qiu-dai-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IP-jian-ce",
+    "name": "IP检测",
+    "category": "proxy",
+    "description": "IP检测，检测您的IP质量，为跨境电商保驾护航",
+    "doc_url": "https://partners.vmcardio.com/docs/IP-jian-ce",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IP-jian-ce",
+      "plugin:config IP-jian-ce",
+      "plugin:use IP-jian-ce"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "InstaIp",
+    "name": "InstaIp",
+    "category": "proxy",
+    "description": "InstIp 是突破新流量新生态的proxy服务商，我们提供高质量低价格的静态住宅 IP 和动态代理，确保账号安全、稳定运营。我们适用于社媒矩阵、账号养号、涨粉引流等多种场景，助力跨境商家拓展全球市场。",
+    "doc_url": "https://partners.vmcardio.com/docs/InstaIp",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install InstaIp",
+      "plugin:config InstaIp",
+      "plugin:use InstaIp"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IpnProxy",
+    "name": "IpnProxy",
+    "category": "proxy",
+    "description": "Take your ad spend management to the next level with ipnproxy.com. Designed for VMCardio users, our fast, reliable, and secure proxies empower you to scale campaigns, manage mul",
+    "doc_url": "https://partners.vmcardio.com/docs/IpnProxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IpnProxy",
+      "plugin:config IpnProxy",
+      "plugin:use IpnProxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "LEEPSMART-kua-jing-ying-xiao",
+    "name": "LEEPSMART跨境营销",
+    "category": "proxy",
+    "description": "Meta广告代理商",
+    "doc_url": "https://partners.vmcardio.com/docs/LEEPSMART-kua-jing-ying-xiao",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install LEEPSMART-kua-jing-ying-xiao",
+      "plugin:config LEEPSMART-kua-jing-ying-xiao",
+      "plugin:use LEEPSMART-kua-jing-ying-xiao"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Live-Proxies",
+    "name": "Live Proxies",
+    "category": "proxy",
+    "description": "Live Proxies 提供优质的住宅和移动 IP 代理解决方案，适用于个人和企业。我们拥有覆盖50多个国家、数百万IP的轮换网络，支持网络爬虫、广告验证、社交媒体管理等多种应用。",
+    "doc_url": "https://partners.vmcardio.com/docs/Live-Proxies",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Live-Proxies",
+      "plugin:config Live-Proxies",
+      "plugin:use Live-Proxies"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "LokiProxy",
+    "name": "LokiProxy",
+    "category": "proxy",
+    "description": "支持免费测试，原生静态 IP 低至 $3.99/IP，动态住宅代理低至 $0.48/GB，独立 IP资源每日更新，支持无限并发会话，稳定高效。",
+    "doc_url": "https://partners.vmcardio.com/docs/LokiProxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install LokiProxy",
+      "plugin:config LokiProxy",
+      "plugin:use LokiProxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Loongproxy-jing-tai-zhu-zhai-dai-li",
+    "name": "Loongproxy静态住宅代理",
+    "category": "proxy",
+    "description": "全球100+国家/地区的50万静态ISP，高速稳定、纯净高匿，支持免费试用",
+    "doc_url": "https://partners.vmcardio.com/docs/Loongproxy-jing-tai-zhu-zhai-dai-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Loongproxy-jing-tai-zhu-zhai-dai-li",
+      "plugin:config Loongproxy-jing-tai-zhu-zhai-dai-li",
+      "plugin:use Loongproxy-jing-tai-zhu-zhai-dai-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "MANGOPROXY",
+    "name": "MANGOPROXY",
+    "category": "proxy",
+    "description": "MangoProxy — fast and reliable proxies for affiliate marketing, parsing, and automation tasks.",
+    "doc_url": "https://partners.vmcardio.com/docs/MANGOPROXY",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install MANGOPROXY",
+      "plugin:config MANGOPROXY",
+      "plugin:use MANGOPROXY"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "MiyaIP",
+    "name": "Miya全球原生静态、动态住宅代理IP",
+    "category": "proxy",
+    "description": "原生家宽静态IP低至$1.5/月、住宅动态低至$0.4/GB，各国本土运营商IP，满足各种使用场景，提供最专业的IP解决方案。",
+    "doc_url": "https://partners.vmcardio.com/docs/MiyaIP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install MiyaIP",
+      "plugin:config MiyaIP",
+      "plugin:use MiyaIP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Netnut-quan-qiu-IP",
+    "name": "Netnut全球IP",
+    "category": "proxy",
+    "description": "Netnut 8500万住宅代理IP，覆盖全球，高质量、可靠稳定代理网络，适用于需要大规模数据抓取和高并发请求的应用场景。支持多种代理服务协议。",
+    "doc_url": "https://partners.vmcardio.com/docs/Netnut-quan-qiu-IP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Netnut-quan-qiu-IP",
+      "plugin:config Netnut-quan-qiu-IP",
+      "plugin:use Netnut-quan-qiu-IP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "NiuProxy",
+    "name": "NiuProxy",
+    "category": "proxy",
+    "description": "NiuProxy是专业的全球代理IP服务商。核心提供高带宽TikTok直播专线代理与大量原生独享IP。大数据采集等需求。高匿、纯净、低延迟，是您跨境出海的首选网络合作伙伴",
+    "doc_url": "https://partners.vmcardio.com/docs/NiuProxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install NiuProxy",
+      "plugin:config NiuProxy",
+      "plugin:use NiuProxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Nodemaven",
+    "name": "Nodemaven",
+    "category": "proxy",
+    "description": "NodeMaven is a premium proxy provider delivering clean, high-quality residential, mobile, and ISP proxies built for automation, data collection, and multi-account workflows.",
+    "doc_url": "https://partners.vmcardio.com/docs/Nodemaven",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Nodemaven",
+      "plugin:config Nodemaven",
+      "plugin:use Nodemaven"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "NovProxy-di-jia-IP",
+    "name": "NovProxy （低价IP）",
+    "category": "proxy",
+    "description": "独立IP资源，免费测试，全球195+国家地区纯净资源。",
+    "doc_url": "https://partners.vmcardio.com/docs/NovProxy-di-jia-IP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install NovProxy-di-jia-IP",
+      "plugin:config NovProxy-di-jia-IP",
+      "plugin:use NovProxy-di-jia-IP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Novada",
+    "name": "Novada",
+    "category": "proxy",
+    "description": "Novada是一家覆盖全球220+地区的高端代理服务提供商，只需$0.65/GB的价格您即可拥有由1亿IP地址构成的强大全球网络。通过Novada，您可无缝解锁所有公开网络数据——安全、高效且可靠。",
+    "doc_url": "https://partners.vmcardio.com/docs/Novada",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Novada",
+      "plugin:config Novada",
+      "plugin:use Novada"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Nscoks",
+    "name": "Nscoks",
+    "category": "proxy",
+    "description": "NSOCKS 是您专业的代理提供商。使用全球移动和高质量住宅代理，助您实现目标。",
+    "doc_url": "https://partners.vmcardio.com/docs/Nscoks",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Nscoks",
+      "plugin:config Nscoks",
+      "plugin:use Nscoks"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Nstproxy",
+    "name": "Nstproxy",
+    "category": "proxy",
+    "description": "Nstproxy 提供优质的住宅、数据中心、ISP 和 IPv6 代理服务，价格低至 0.1 美元/GB。稳定、快速，满足您的所有数据和自动化需求。",
+    "doc_url": "https://partners.vmcardio.com/docs/Nstproxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Nstproxy",
+      "plugin:config Nstproxy",
+      "plugin:use Nstproxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "OMOcaptcha",
+    "name": "OMOcaptcha",
+    "category": "proxy",
+    "description": "Description: \"OMOcaptcha: The smart captcha solving service with a 99% success rate, designed for efficient bot automation and data scraping\"",
+    "doc_url": "https://partners.vmcardio.com/docs/OMOcaptcha",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install OMOcaptcha",
+      "plugin:config OMOcaptcha",
+      "plugin:use OMOcaptcha"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "OkeyProxy-quan-qiu-dai-li",
+    "name": "OkeyProxy 全球代理",
+    "category": "proxy",
+    "description": "OkeyProxy 是先进稳定代理解决方案的领先提供商，专门提供轮换和住宅代理，以实现安全高效的在线体验。",
+    "doc_url": "https://partners.vmcardio.com/docs/OkeyProxy-quan-qiu-dai-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install OkeyProxy-quan-qiu-dai-li",
+      "plugin:config OkeyProxy-quan-qiu-dai-li",
+      "plugin:use OkeyProxy-quan-qiu-dai-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "OkkProxy",
+    "name": "OkkProxy",
+    "category": "proxy",
+    "description": "OKKProxy是一家值得信赖的高级代理和网页抓取解决方案提供商，旨在支持无缝衔接的大规模数据收集。他们的工具可帮助企业绕过 IP 封禁和验证码等常见障碍，从而高效可靠地访问公共网页数据。Decodo 服务于众多行业，包括市场调研、电子商务、搜索引擎优化 (SEO) 和数据科学，并提供可扩展的代理网络和专业的客户支持。",
+    "doc_url": "https://partners.vmcardio.com/docs/OkkProxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install OkkProxy",
+      "plugin:config OkkProxy",
+      "plugin:use OkkProxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Omegaproxy",
+    "name": "Omegaproxy",
+    "category": "proxy",
+    "description": "顶级住宅代理服务，在 190 个国家/地区拥有 6200 万多个 IP，具有支持代理 SwitchyOmega 的 Omegaproxy 扩展。 通过专业的解决方案满足多样化的代理需求。",
+    "doc_url": "https://partners.vmcardio.com/docs/Omegaproxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Omegaproxy",
+      "plugin:config Omegaproxy",
+      "plugin:use Omegaproxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "OnesProxy-yuan-sheng-jing-tai-zhu-zhai-IP",
+    "name": "OnesProxy原生静态住宅IP",
+    "category": "proxy",
+    "description": "Onesproxy专注于提供优质的海外代理IP产品及服务，精准覆盖200+国家，提供静态及动态IP，灵活应对多种业务场景。来自真实使用者的真实IP地址，确保您永远不会被侦测到或封锁。 自建骨干网机房高达99.99%的SLA率，保障业务顺利进行",
+    "doc_url": "https://partners.vmcardio.com/docs/OnesProxy-yuan-sheng-jing-tai-zhu-zhai-IP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install OnesProxy-yuan-sheng-jing-tai-zhu-zhai-IP",
+      "plugin:config OnesProxy-yuan-sheng-jing-tai-zhu-zhai-IP",
+      "plugin:use OnesProxy-yuan-sheng-jing-tai-zhu-zhai-IP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "OwlProxy",
+    "name": "OwlProxy",
+    "category": "proxy",
+    "description": "全球领先的住宅IP代理，新人注册免费送200MB动态流量。真实IP位址！",
+    "doc_url": "https://partners.vmcardio.com/docs/OwlProxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install OwlProxy",
+      "plugin:config OwlProxy",
+      "plugin:use OwlProxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Ownips",
+    "name": "Ownips-海外静态IP代理",
+    "category": "proxy",
+    "description": "国内首家海外静态IP代理，优选原生本土ISP，为您提供独享、高纯净的静态住宅IP代理，精准匹配各种业务场景类型，推动全球企业数据业务发展。",
+    "doc_url": "https://partners.vmcardio.com/docs/Ownips",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Ownips",
+      "plugin:config Ownips",
+      "plugin:use Ownips"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "PIA-S5-Proxy",
+    "name": "PIA S5 Proxy",
+    "category": "proxy",
+    "description": "3.5亿+真实IP地址，socks5/住宅/数据中心，满足您的所有代理需求，仅$0.045/IP",
+    "doc_url": "https://partners.vmcardio.com/docs/PIA-S5-Proxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install PIA-S5-Proxy",
+      "plugin:config PIA-S5-Proxy",
+      "plugin:use PIA-S5-Proxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "PYProxy",
+    "name": "PYProxy",
+    "category": "proxy",
+    "description": "全球领先的住宅代理提供商；覆盖全球300万+的真实住宅代理。享受无限制的浏览和线上自由。",
+    "doc_url": "https://partners.vmcardio.com/docs/PYProxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install PYProxy",
+      "plugin:config PYProxy",
+      "plugin:use PYProxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Proxied",
+    "name": "Proxied",
+    "category": "proxy",
+    "description": "Proxied 是一个全球移动代理平台，提供稳定的 4G/5G 专用代理服务。支持多国家节点、快速连接与高信任 IP，可广泛应用于广告、社交、自动化及数据采集等场景。",
+    "doc_url": "https://partners.vmcardio.com/docs/Proxied",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Proxied",
+      "plugin:config Proxied",
+      "plugin:use Proxied"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Proxy-cc",
+    "name": "Proxy.cc",
+    "category": "proxy",
+    "description": "通过世界上最具价值的代理扩展您的业务，轻松设置和使用9000多万个住宅代理，连接到世界各地的国家或城市级别的位置。使您能够有效地收集公共数据。",
+    "doc_url": "https://partners.vmcardio.com/docs/Proxy-cc",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Proxy-cc",
+      "plugin:config Proxy-cc",
+      "plugin:use Proxy-cc"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Proxy302",
+    "name": "Proxy302",
+    "category": "proxy",
+    "description": "Proxy302低至0.25/IP/天，新人注册获取免费$1测试额度，免费试用所有类型代理IP。还可享$5优惠套餐，全球200＋国家和地区，650万个住宅IP可供选择。",
+    "doc_url": "https://partners.vmcardio.com/docs/Proxy302",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Proxy302",
+      "plugin:config Proxy302",
+      "plugin:use Proxy302"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Proxy4U",
+    "name": "Proxy4U",
+    "category": "proxy",
+    "description": "Meet Proxy4U – Discover Endless IPs Worldwide with Residential, Mobile & Datacenter Proxies!",
+    "doc_url": "https://partners.vmcardio.com/docs/Proxy4U",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Proxy4U",
+      "plugin:config Proxy4U",
+      "plugin:use Proxy4U"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Proxylite",
+    "name": "Proxylite",
+    "category": "proxy",
+    "description": "Proxylite通过世界上最具价值的代理扩展您的业务，轻松设置和使用7200多万个住宅代理，连接到世界各地的国家或城市级别的位置，使您能够有效地收集公共数据。",
+    "doc_url": "https://partners.vmcardio.com/docs/Proxylite",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Proxylite",
+      "plugin:config Proxylite",
+      "plugin:use Proxylite"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Proxyshare",
+    "name": "Proxyshare",
+    "category": "proxy",
+    "description": "动态/静态住宅代理，到数千家企业的信任，是安全访问本地化内容和专业网络爬虫解决方案的理想选择，轻松地将我们的解决方案集成到您的项目中。",
+    "doc_url": "https://partners.vmcardio.com/docs/Proxyshare",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Proxyshare",
+      "plugin:config Proxyshare",
+      "plugin:use Proxyshare"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "QingProxy",
+    "name": "QingProxy",
+    "category": "proxy",
+    "description": "专业的全球代理网络服务商，致力于为企业提供稳定、高效的数据采集基础设施。提供住宅IP、数据中心IP、移动代理等多种代理服务。",
+    "doc_url": "https://partners.vmcardio.com/docs/QingProxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install QingProxy",
+      "plugin:config QingProxy",
+      "plugin:use QingProxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Rapidproxy",
+    "name": "Rapidproxy",
+    "category": "proxy",
+    "description": "立即免费试用 RapidProxy｜流量永久有效，单价低至 $0.65/GB。访问遍布 200+ 国家/地区的 9000 万+纯净住宅 IP，全面支持 HTTP(S)/SOCKS5 协议与无限并发连接，轻松满足大规模数据采集需求。",
+    "doc_url": "https://partners.vmcardio.com/docs/Rapidproxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Rapidproxy",
+      "plugin:config Rapidproxy",
+      "plugin:use Rapidproxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "S5-dong-tai-zhu-zhai-IP",
+    "name": "S5动态住宅IP",
+    "category": "proxy",
+    "description": "CloudProxy专业提供国外动态住宅代理IP服务，包括原生私人Socks5家庭住宅IP。我们的动态住宅代理均由真实用户的家庭设备IP构成，支持无限量并发连接。客户可以选择动态旋转或粘性会话两种模式，使用我们的高品质国外住宅代理IP池。",
+    "doc_url": "https://partners.vmcardio.com/docs/S5-dong-tai-zhu-zhai-IP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install S5-dong-tai-zhu-zhai-IP",
+      "plugin:config S5-dong-tai-zhu-zhai-IP",
+      "plugin:use S5-dong-tai-zhu-zhai-IP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "ke-fu-gong-ju",
+    "name": "SaleSmartly全渠道私域沟通工具",
+    "category": "proxy",
+    "description": "全渠道私域沟通工具，聚合在线聊天（Livechat）、WhatsApp、Facebook Messenger、TikTok、Instagram、Telegram、Line、Email、Wechat",
+    "doc_url": "https://partners.vmcardio.com/docs/ke-fu-gong-ju",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install ke-fu-gong-ju",
+      "plugin:config ke-fu-gong-ju",
+      "plugin:use ke-fu-gong-ju"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "SeekProxy",
+    "name": "SeekProxy",
+    "category": "proxy",
+    "description": "全球企业级HTTP代理IP服务商，拥有全球国家亿级动态IP/静态IP资源池，可满足多样化的商业场景需求（推荐首单仅需0.9$/G）。",
+    "doc_url": "https://partners.vmcardio.com/docs/SeekProxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install SeekProxy",
+      "plugin:config SeekProxy",
+      "plugin:use SeekProxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Smartproxy",
+    "name": "Smartproxy",
+    "category": "proxy",
+    "description": "全球级代理，可信赖的连线保障 — Smartproxy.org：90M+ IP、220+ 地区，为市场调研、网页抓取与 SEO 监控提供稳定、安全的代理方案。",
+    "doc_url": "https://partners.vmcardio.com/docs/Smartproxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Smartproxy",
+      "plugin:config Smartproxy",
+      "plugin:use Smartproxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "stormproxies",
+    "name": "StormProxies",
+    "category": "proxy",
+    "description": "StormProxies 是业内领先的住宅代理服务提供商，致力于打造高匿名、高可用的代理服务，帮助用户轻松应对数据抓取、SEO工具使用、社交媒体管理、广告验证等多样化的应用场景。",
+    "doc_url": "https://partners.vmcardio.com/docs/stormproxies",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install stormproxies",
+      "plugin:config stormproxies",
+      "plugin:use stormproxies"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Swiftproxy-quan-qiu-zhu-zhai-IP",
+    "name": "Swiftproxy全球住宅IP",
+    "category": "proxy",
+    "description": "Swiftproxy致力于为全球客户提供优质的纯净住宅代理IP服务，具有超7000万个真实住宅IP，覆盖全球195个地区，支持HTTP/HTTPS和SOCKS5协议，提供轮转和粘性会话，帮助用户突破地域的限制，提高大数据采集效率，提高在线的安全性。价格低至$0.7/GB！",
+    "doc_url": "https://partners.vmcardio.com/docs/Swiftproxy-quan-qiu-zhu-zhai-IP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Swiftproxy-quan-qiu-zhu-zhai-IP",
+      "plugin:config Swiftproxy-quan-qiu-zhu-zhai-IP",
+      "plugin:use Swiftproxy-quan-qiu-zhu-zhai-IP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Talordata-gao-zhi-liang-quan-qiu-zhu-zhai-dai-li-IP",
+    "name": "Talordata—高质量全球住宅代理IP",
+    "category": "proxy",
+    "description": "195+地区动态住宅代理，免费试用，2GB—$1.98，无限并发，无限带宽，满足您的多样化业务需求。",
+    "doc_url": "https://partners.vmcardio.com/docs/Talordata-gao-zhi-liang-quan-qiu-zhu-zhai-dai-li-IP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Talordata-gao-zhi-liang-quan-qiu-zhu-zhai-dai-li-IP",
+      "plugin:config Talordata-gao-zhi-liang-quan-qiu-zhu-zhai-dai-li-IP",
+      "plugin:use Talordata-gao-zhi-liang-quan-qiu-zhu-zhai-dai-li-IP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Tank-IP",
+    "name": "Tank IP",
+    "category": "proxy",
+    "description": "Tank IP，作为性价比标杆的海外住宅IP服务商，持续引领行业创新。其IP资源覆盖全球多个国家和地区，满足多元化需求。住宅IP5000多万，速度快，业务成功率高。同时，Tank IP不断优化技术，提升IP纯净度与稳定性，确保用户数据安全与隐私保护。其价格策略亲民，让中小企业及个人用户也能轻松拥有高质量的海外住宅IP，助力业务全球化发展。",
+    "doc_url": "https://partners.vmcardio.com/docs/Tank-IP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Tank-IP",
+      "plugin:config Tank-IP",
+      "plugin:use Tank-IP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "TradeProxy",
+    "name": "TradeProxy",
+    "category": "proxy",
+    "description": "TradeProxy – 可信赖的住宅 IPv4 代理来源",
+    "doc_url": "https://partners.vmcardio.com/docs/TradeProxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install TradeProxy",
+      "plugin:config TradeProxy",
+      "plugin:use TradeProxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "ExitAnty",
+    "name": "Unique iOS, iPadOS, macOS fingerprints, SOCKS5 proxy for each session.",
+    "category": "proxy",
+    "description": "Download from AppStore and start for free.",
+    "doc_url": "https://partners.vmcardio.com/docs/ExitAnty",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install ExitAnty",
+      "plugin:config ExitAnty",
+      "plugin:use ExitAnty"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "ProxyWing",
+    "name": "We focus on stable performance, real speed, and privacy — ideal for scraping, automation, and managi",
+    "category": "proxy",
+    "description": "We focus on stable performance, real speed, and privacy — ideal for scraping, automation, and managi",
+    "doc_url": "https://partners.vmcardio.com/docs/ProxyWing",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install ProxyWing",
+      "plugin:config ProxyWing",
+      "plugin:use ProxyWing"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "iProxy",
+    "name": "iProxy",
+    "category": "proxy",
+    "description": "Brief introduction — Android app to create personal 3G/4G/5G mobile proxies in a few clicks with unlimited traffic for $6/month.",
+    "doc_url": "https://partners.vmcardio.com/docs/iProxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install iProxy",
+      "plugin:config iProxy",
+      "plugin:use iProxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "ixBrowser-zhi-wen-liu-lan-qi",
+    "name": "ixBrowser指纹浏览器",
+    "category": "proxy",
+    "description": "ixBrowser 是一款永久免费的指纹浏览器。借助我们优秀的指纹隔离技术，我们的指纹环境在第三方检测网站Pixelscan和Iphey的检测下拥有非常高的通过率，不论是跨境电商人士，还是在线营销人员都可以轻松管理多个独立账号，同时规避平台检测封禁",
+    "doc_url": "https://partners.vmcardio.com/docs/ixBrowser-zhi-wen-liu-lan-qi",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install ixBrowser-zhi-wen-liu-lan-qi",
+      "plugin:config ixBrowser-zhi-wen-liu-lan-qi",
+      "plugin:use ixBrowser-zhi-wen-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "kookeey-ke-ke-quan-qiu-ye-wu-ji-dai-li-IP",
+    "name": "kookeey(可壳)全球业务级代理IP",
+    "category": "proxy",
+    "description": "新人注册即送200M动态流量+198元礼包，提供静态ISP、动态住宅、静态数据中心3类100%独享IP资源",
+    "doc_url": "https://partners.vmcardio.com/docs/kookeey-ke-ke-quan-qiu-ye-wu-ji-dai-li-IP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install kookeey-ke-ke-quan-qiu-ye-wu-ji-dai-li-IP",
+      "plugin:config kookeey-ke-ke-quan-qiu-ye-wu-ji-dai-li-IP",
+      "plugin:use kookeey-ke-ke-quan-qiu-ye-wu-ji-dai-li-IP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "lumiproxy-quan-qiu-dai-li-ip",
+    "name": "lumiproxy全球代理ip",
+    "category": "proxy",
+    "description": "90M+ 代理覆盖全球 220 多个地点。优质住宅代理 - 旋转和静态。IP 白名单和用户名/密码身份验证。全球地理定位 – 国家/地区、州或城市。无限带宽，99.9%正常运行时间",
+    "doc_url": "https://partners.vmcardio.com/docs/lumiproxy-quan-qiu-dai-li-ip",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install lumiproxy-quan-qiu-dai-li-ip",
+      "plugin:config lumiproxy-quan-qiu-dai-li-ip",
+      "plugin:use lumiproxy-quan-qiu-dai-li-ip"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Tabproxy",
+    "name": "thanks",
+    "category": "proxy",
+    "description": "thanks",
+    "doc_url": "https://partners.vmcardio.com/docs/Tabproxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Tabproxy",
+      "plugin:config Tabproxy",
+      "plugin:use Tabproxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPWEB-quan-qiu-ling-xian-de-IP-dai-li-fu-wu-shang",
+    "name": "​​快速响应​​：平均响应时间仅0.2秒",
+    "category": "proxy",
+    "description": "​​24/7技术支持​​：专家级技术支持团队全天候服务",
+    "doc_url": "https://partners.vmcardio.com/docs/IPWEB-quan-qiu-ling-xian-de-IP-dai-li-fu-wu-shang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPWEB-quan-qiu-ling-xian-de-IP-dai-li-fu-wu-shang",
+      "plugin:config IPWEB-quan-qiu-ling-xian-de-IP-dai-li-fu-wu-shang",
+      "plugin:use IPWEB-quan-qiu-ling-xian-de-IP-dai-li-fu-wu-shang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Cliproxy-quan-qiu-dai-li-hang-ye-nei-zui-di-jia",
+    "name": "● 永不过期的流量，套餐永不过期，选择合适自己的流量套餐",
+    "category": "proxy",
+    "description": "● 无限并发会话，全球部署超级代理集群服务器",
+    "doc_url": "https://partners.vmcardio.com/docs/Cliproxy-quan-qiu-dai-li-hang-ye-nei-zui-di-jia",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Cliproxy-quan-qiu-dai-li-hang-ye-nei-zui-di-jia",
+      "plugin:config Cliproxy-quan-qiu-dai-li-hang-ye-nei-zui-di-jia",
+      "plugin:use Cliproxy-quan-qiu-dai-li-hang-ye-nei-zui-di-jia"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "LunaProxy-JX3u",
+    "name": "免费提供国家/地区、州/省、城市和 ISP 级定位",
+    "category": "proxy",
+    "description": "提供真实住宅 IP 地址",
+    "doc_url": "https://partners.vmcardio.com/docs/LunaProxy-JX3u",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install LunaProxy-JX3u",
+      "plugin:config LunaProxy-JX3u",
+      "plugin:use LunaProxy-JX3u"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "sparkproxy",
+    "name": "全球isp住宅代理，高速稳定的全球代理网络",
+    "category": "proxy",
+    "description": "海量地区 IP 任选 ,一键批量管理账号,安全加密，防封防封锁",
+    "doc_url": "https://partners.vmcardio.com/docs/sparkproxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install sparkproxy",
+      "plugin:config sparkproxy",
+      "plugin:use sparkproxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "711Proxy",
+    "name": "全球高纯净住宅代理提供商，住宅代理低至0.5美元/G起，无限并发，整合全球200+地点真实住宅ip，99.7%可利用率。",
+    "category": "proxy",
+    "description": "全球高纯净住宅代理提供商，住宅代理低至0.5美元/G起，无限并发，整合全球200+地点真实住宅ip，99.7%可利用率。",
+    "doc_url": "https://partners.vmcardio.com/docs/711Proxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install 711Proxy",
+      "plugin:config 711Proxy",
+      "plugin:use 711Proxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "yue-hu-lian-dian-shang-liu-lan-qi",
+    "name": "悦互联电商浏览器",
+    "category": "proxy",
+    "description": "专为电商用户优化，多店铺防关联必备浏览器，搭配国内自营优质IP，100%纯净不限流，仅需￥399/年。支持自有设备导入，内置多款实用工具，为您的跨境之路保驾护航。",
+    "doc_url": "https://partners.vmcardio.com/docs/yue-hu-lian-dian-shang-liu-lan-qi",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install yue-hu-lian-dian-shang-liu-lan-qi",
+      "plugin:config yue-hu-lian-dian-shang-liu-lan-qi",
+      "plugin:use yue-hu-lian-dian-shang-liu-lan-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "la-li-mao-zhi-wen-liu-lan-qi-c6N9",
+    "name": "拉力猫指纹浏览器",
+    "category": "proxy",
+    "description": "拉力猫指纹浏览器，为您的电商平台、独立站、社媒营销提供安全保障。每个账号独立浏览器指纹、独立IP登录环境，实现防关联批量管理、注册和养号，确保账号安全隔离。",
+    "doc_url": "https://partners.vmcardio.com/docs/la-li-mao-zhi-wen-liu-lan-qi-c6N9",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install la-li-mao-zhi-wen-liu-lan-qi-c6N9",
+      "plugin:config la-li-mao-zhi-wen-liu-lan-qi-c6N9",
+      "plugin:use la-li-mao-zhi-wen-liu-lan-qi-c6N9"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IP2World-Proxy",
+    "name": "支持協議：HTTP(S) & SOCKS5",
+    "category": "proxy",
+    "description": "代理方式：API、賬密認證或S5軟件端獲取代理",
+    "doc_url": "https://partners.vmcardio.com/docs/IP2World-Proxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IP2World-Proxy",
+      "plugin:config IP2World-Proxy",
+      "plugin:use IP2World-Proxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "xing-lu-kua-jing-dian-shang-jia-su-he",
+    "name": "星鹿依托高质量住宅IP及三大运营商跨境网络专线资源，为企业提供一",
+    "category": "proxy",
+    "description": "站式跨境网络加速服务",
+    "doc_url": "https://partners.vmcardio.com/docs/xing-lu-kua-jing-dian-shang-jia-su-he",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install xing-lu-kua-jing-dian-shang-jia-su-he",
+      "plugin:config xing-lu-kua-jing-dian-shang-jia-su-he",
+      "plugin:use xing-lu-kua-jing-dian-shang-jia-su-he"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "bi-te-quan-qiu-IP",
+    "name": "比特全球IP",
+    "category": "proxy",
+    "description": "注册就送200M动态流量，全球高纯净独享双ISP静态IP、动态住宅IP,企业级大数据采集解决方案。",
+    "doc_url": "https://partners.vmcardio.com/docs/bi-te-quan-qiu-IP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install bi-te-quan-qiu-IP",
+      "plugin:config bi-te-quan-qiu-IP",
+      "plugin:use bi-te-quan-qiu-IP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IPdodo-kua-jing-wang-luo",
+    "name": "注册免费试用，解决电商/直播/短视频业务",
+    "category": "proxy",
+    "description": "详情：IPdodo基于10年跨境网络加速经验，提供独享纯净网络环境，为客户全场景网络解决方案。",
+    "doc_url": "https://partners.vmcardio.com/docs/IPdodo-kua-jing-wang-luo",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IPdodo-kua-jing-wang-luo",
+      "plugin:config IPdodo-kua-jing-wang-luo",
+      "plugin:use IPdodo-kua-jing-wang-luo"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "liu-guan-dai-li",
+    "name": "流冠代理",
+    "category": "proxy",
+    "description": "企业级IP代理服务提供商，拥有百万级IP池，遍布全国300多个城市，IP可用率高达99%；提供优质的大数据采集与信息爬取基础资源。为行业客户提供先进、可靠、安全、高质量、易扩展的产品解决方案。",
+    "doc_url": "https://partners.vmcardio.com/docs/liu-guan-dai-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install liu-guan-dai-li",
+      "plugin:config liu-guan-dai-li",
+      "plugin:use liu-guan-dai-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "shen-long-hai-wai-dai-li",
+    "name": "神龙海外代理",
+    "category": "proxy",
+    "description": "全球领先海外动态住宅代理服务商，专项海外动态IP代理，助力企业数据采集，覆盖200+城市级定位",
+    "doc_url": "https://partners.vmcardio.com/docs/shen-long-hai-wai-dai-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install shen-long-hai-wai-dai-li",
+      "plugin:config shen-long-hai-wai-dai-li",
+      "plugin:use shen-long-hai-wai-dai-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "wu-xian-yi-dong-dai-li-MobileProxy-Space",
+    "name": "移动代理,空间",
+    "category": "proxy",
+    "description": "可在 40 多个国家提供地理切换的移动代理服务。任何任务的高质量、安全解决方案。",
+    "doc_url": "https://partners.vmcardio.com/docs/wu-xian-yi-dong-dai-li-MobileProxy-Space",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install wu-xian-yi-dong-dai-li-MobileProxy-Space",
+      "plugin:config wu-xian-yi-dong-dai-li-MobileProxy-Space",
+      "plugin:use wu-xian-yi-dong-dai-li-MobileProxy-Space"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "chuan-yun-API",
+    "name": "穿云API",
+    "category": "proxy",
+    "description": "穿云API可轻松跳过Cloudflare Turnstile反爬虫验证,Cloudflare Challenge五秒盾页面真人机验证和WAF防火墙,并提供高速HTTP/Socks5的API提取IP代理(全球动态住宅代理/机房代理),以及设置Referer、浏览器UA和headless状态等各浏览器指纹及设备特征。",
+    "doc_url": "https://partners.vmcardio.com/docs/chuan-yun-API",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install chuan-yun-API",
+      "plugin:config chuan-yun-API",
+      "plugin:use chuan-yun-API"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "chuan-yun-hai-wai-dong-tai-IP",
+    "name": "穿云海外动态IP",
+    "category": "proxy",
+    "description": "穿云代理是领先的动态代理IP池服务提供商，专注于动态住宅代理、动态数据中心代理，支持HTTP/Socks5协议，满足指纹浏览器、数据抓取、电商系统、网络测试、SEO等多场景的代理需求。选择穿云海外动态IP，保障您的网络安全，提供卓越的代理服务。",
+    "doc_url": "https://partners.vmcardio.com/docs/chuan-yun-hai-wai-dong-tai-IP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install chuan-yun-hai-wai-dong-tai-IP",
+      "plugin:config chuan-yun-hai-wai-dong-tai-IP",
+      "plugin:use chuan-yun-hai-wai-dong-tai-IP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "li-zhi-ip-lycheeip",
+    "name": "荔枝ip（lycheeip)",
+    "category": "proxy",
+    "description": "一家拥有超3000万全球IP的代理服务商，所有的IP都经过AI+算法的滤洗，专为跨境电商和社媒运营服务",
+    "doc_url": "https://partners.vmcardio.com/docs/li-zhi-ip-lycheeip",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install li-zhi-ip-lycheeip",
+      "plugin:config li-zhi-ip-lycheeip",
+      "plugin:use li-zhi-ip-lycheeip"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "PYPROXY",
+    "name": "覆盖全球多个国家和地区。稳定、高速、无线带宽；",
+    "category": "proxy",
+    "description": "优惠券：pyproxy055",
+    "doc_url": "https://partners.vmcardio.com/docs/PYPROXY",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install PYPROXY",
+      "plugin:config PYPROXY",
+      "plugin:use PYPROXY"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "la-jiao-HTTP-mian-fei-dai-li-IP",
+    "name": "辣椒HTTP免费代理IP",
+    "category": "proxy",
+    "description": "注册即送1-2GB，最新IP池+超1亿真实资源。行业内最低价，全球190+国家地区。",
+    "doc_url": "https://partners.vmcardio.com/docs/la-jiao-HTTP-mian-fei-dai-li-IP",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install la-jiao-HTTP-mian-fei-dai-li-IP",
+      "plugin:config la-jiao-HTTP-mian-fei-dai-li-IP",
+      "plugin:use la-jiao-HTTP-mian-fei-dai-li-IP"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "mian-ju-dai-li",
+    "name": "面具代理",
+    "category": "proxy",
+    "description": "7000万+企业级全球IP代理，全球高质纯净动态IP和静态IP代理服务，灵活应对多样化在线网络，安全探索全球业务的无限可能",
+    "doc_url": "https://partners.vmcardio.com/docs/mian-ju-dai-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install mian-ju-dai-li",
+      "plugin:config mian-ju-dai-li",
+      "plugin:use mian-ju-dai-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "luo-tuo-HTTP-dai-li",
+    "name": "骆驼HTTP，全国海量IP资源，99%+可用率，满足您任何数据服务需求，帮助您轻松进入数据时代，客户经理一对一7",
+    "category": "proxy",
+    "description": "24小时服务，为每个企业客户提供优质的IP解决方案。",
+    "doc_url": "https://partners.vmcardio.com/docs/luo-tuo-HTTP-dai-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install luo-tuo-HTTP-dai-li",
+      "plugin:config luo-tuo-HTTP-dai-li",
+      "plugin:use luo-tuo-HTTP-dai-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "liang-shu-ju-Bright-Data",
+    "name": "灵活按需计费：按流量、按IP、按并发连接灵活计费，适合不同规模的项目需求。",
+    "category": "proxy",
+    "description": "强大数据采",
+    "doc_url": "https://partners.vmcardio.com/docs/liang-shu-ju-Bright-Data",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install liang-shu-ju-Bright-Data",
+      "plugin:config liang-shu-ju-Bright-Data",
+      "plugin:use liang-shu-ju-Bright-Data"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "ABCproxy",
+    "name": "proxy",
+    "category": "proxy",
+    "description": "ABCProxy 全球住宅代理IP，190 +地區的 2億+住宅IP，$0.77/GB 和 $0.045/IP起 , Http(s)/Socks5, 管理代理使用记录, 動態/靜態，無限流量，适用SEO/跨境電商/調查/数据收集/多帳戶管理等，免費代理工具, 輕鬆與任何反檢測流覽器、模擬器和機器人集成，為您提供匿名、快速的網路體驗，體驗無縫網路流覽和安全訪問網站。",
+    "doc_url": "https://partners.vmcardio.com/docs/ABCproxy",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install ABCproxy",
+      "plugin:config ABCproxy",
+      "plugin:use ABCproxy"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "MarsProxies-zhu-zhai-dai-li",
+    "name": "rsProxies - Premium Proxy Service Provider",
+    "category": "proxy",
+    "description": "Secure your online activities with Mars Proxies – the trusted proxy service provider offering fast, reliable, and anonymous browsing. Get started today!",
+    "doc_url": "https://partners.vmcardio.com/docs/MarsProxies-zhu-zhai-dai-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install MarsProxies-zhu-zhai-dai-li",
+      "plugin:config MarsProxies-zhu-zhai-dai-li",
+      "plugin:use MarsProxies-zhu-zhai-dai-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "PROXYMA",
+    "name": "zhai-dai-li)nn",
+    "category": "proxy",
+    "description": "PROXYMA — 60+ million unique IP addresses with 24/7 support.",
+    "doc_url": "https://partners.vmcardio.com/docs/PROXYMA",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install PROXYMA",
+      "plugin:config PROXYMA",
+      "plugin:use PROXYMA"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "ToDetect-IP-jian-ce-gong-ju",
+    "name": "导航网站](https://partners.vmcardio.com/docs/bai-bai-dao-hang)nn",
+    "category": "proxy",
+    "description": "ToDetect IP检测工具",
+    "doc_url": "https://partners.vmcardio.com/docs/ToDetect-IP-jian-ce-gong-ju",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install ToDetect-IP-jian-ce-gong-ju",
+      "plugin:config ToDetect-IP-jian-ce-gong-ju",
+      "plugin:use ToDetect-IP-jian-ce-gong-ju"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "SMSActivate",
+    "name": "SMS-Activate",
+    "category": "sms_email",
+    "description": "SMS-Activate offers virtual numbers from 180 countries for arbitrage, farming, and other tasks.",
+    "doc_url": "https://partners.vmcardio.com/docs/SMSActivate",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install SMSActivate",
+      "plugin:config SMSActivate",
+      "plugin:use SMSActivate"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "TikTok-dao-hang",
+    "name": "TK跨境电商",
+    "category": "social_media",
+    "description": "TK买买买",
+    "doc_url": "https://partners.vmcardio.com/docs/TikTok-dao-hang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install TikTok-dao-hang",
+      "plugin:config TikTok-dao-hang",
+      "plugin:use TikTok-dao-hang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "AccountDiversity",
+    "name": "AccountDiversity",
+    "category": "social_media",
+    "description": "AccountDiversity is a digital solutions store for traffic arbitrage and marketing.",
+    "doc_url": "https://partners.vmcardio.com/docs/AccountDiversity",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install AccountDiversity",
+      "plugin:config AccountDiversity",
+      "plugin:use AccountDiversity"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Raff-Store",
+    "name": "Accounts Facebook for ADS and MarketPlace",
+    "category": "social_media",
+    "description": "The best quality accounts on the market. Great for advertising.",
+    "doc_url": "https://partners.vmcardio.com/docs/Raff-Store",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Raff-Store",
+      "plugin:config Raff-Store",
+      "plugin:use Raff-Store"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Arbi-Store",
+    "name": "Arbi.Store",
+    "category": "social_media",
+    "description": "Arbi.Store. Facebook manually farm. Kings ad accounts and products for affiliate marketers.",
+    "doc_url": "https://partners.vmcardio.com/docs/Arbi-Store",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Arbi-Store",
+      "plugin:config Arbi-Store",
+      "plugin:use Arbi-Store"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "BYKOL-bai-kou-hai-wai-wang-hong-ying-xiao",
+    "name": "BYKOL百口海外网红营销",
+    "category": "social_media",
+    "description": "海外网红内容营销MCN新锐机构，专注亚马逊买家秀、红人视频、TikTok带货和站外推广。",
+    "doc_url": "https://partners.vmcardio.com/docs/BYKOL-bai-kou-hai-wai-wang-hong-ying-xiao",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install BYKOL-bai-kou-hai-wai-wang-hong-ying-xiao",
+      "plugin:config BYKOL-bai-kou-hai-wai-wang-hong-ying-xiao",
+      "plugin:use BYKOL-bai-kou-hai-wai-wang-hong-ying-xiao"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "CheckVCC",
+    "name": "Buy verified accounts from CheckVCC.Com",
+    "category": "social_media",
+    "description": "Get Facebook, Twitter, and LinkedIn verified accounts — secure, ready-to-use, and instant delivery for personal or business needs.",
+    "doc_url": "https://partners.vmcardio.com/docs/CheckVCC",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install CheckVCC",
+      "plugin:config CheckVCC",
+      "plugin:use CheckVCC"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "EchoTik",
+    "name": "EchoTik",
+    "category": "social_media",
+    "description": "EchoTik专注于TIKTOK短视频及直播电商数据分析。面向全球卖家、创作者、MCN和品牌方，提供丰富的AI和数据解决方案。帮助他们解决找达人，分析视频和直播间，选品等问题 核心成员主要来自小米、金山、腾讯、字节，通过两年发展已经成为美区最精准、性价比最高的第三方数据分析平台。",
+    "doc_url": "https://partners.vmcardio.com/docs/EchoTik",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install EchoTik",
+      "plugin:config EchoTik",
+      "plugin:use EchoTik"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "FB-hao-shang",
+    "name": "FB号商",
+    "category": "social_media",
+    "description": "本平台fb号商专注于提供不同类型的 Facebook 账号，从个人号、小白号到耐用号、美国号、老号，以及企业级的 BM 账号，满足个人用户、广告主和企业的各种需求",
+    "doc_url": "https://partners.vmcardio.com/docs/FB-hao-shang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install FB-hao-shang",
+      "plugin:config FB-hao-shang",
+      "plugin:use FB-hao-shang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "IXSPY",
+    "name": "IXSPY",
+    "category": "social_media",
+    "description": "IXSPY提供整合速卖通(AliExpess)、Shopify、Etsy、Facebook Ads、亚马逊等多平台数据，为跨境卖家提供一站式数据选品服务。",
+    "doc_url": "https://partners.vmcardio.com/docs/IXSPY",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install IXSPY",
+      "plugin:config IXSPY",
+      "plugin:use IXSPY"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Kalodata-TikTok-shu-ju-fen-xi-gong-ju",
+    "name": "Kalodata—TikTok跨境电商平台数据分析工具",
+    "category": "social_media",
+    "description": "Kalodata是行业头部提供Tik Tok电商数据分析工具，覆盖英美、东南亚等10国，整合亚马逊+虾皮电商数据，上线至今已累计帮助全球超过150万商家在TikTok电商经营中提升选品分析】【达人建联】【竞品分析】和【内容创作】的效率，助力TikTok卖家高效选品！",
+    "doc_url": "https://partners.vmcardio.com/docs/Kalodata-TikTok-shu-ju-fen-xi-gong-ju",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Kalodata-TikTok-shu-ju-fen-xi-gong-ju",
+      "plugin:config Kalodata-TikTok-shu-ju-fen-xi-gong-ju",
+      "plugin:use Kalodata-TikTok-shu-ju-fen-xi-gong-ju"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Promo-Picasso-tui-guang-huo-ke-zhuan-jia",
+    "name": "Promo Picasso推广获客专家",
+    "category": "social_media",
+    "description": "Facebook、X、Instagram平台营销系统，覆盖多种推广获客场景。通过全渠道流量引流，构建高效的营销获客矩阵，实现自动采集和推广任务，精准挖掘行业内Facebook、X、Instagram潜在客户。",
+    "doc_url": "https://partners.vmcardio.com/docs/Promo-Picasso-tui-guang-huo-ke-zhuan-jia",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Promo-Picasso-tui-guang-huo-ke-zhuan-jia",
+      "plugin:config Promo-Picasso-tui-guang-huo-ke-zhuan-jia",
+      "plugin:use Promo-Picasso-tui-guang-huo-ke-zhuan-jia"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "SCRM-Champion-quan-qiu-si-yu-yun-ying-zhuan-jia",
+    "name": "SCRM Champion全球私域运营专家",
+    "category": "social_media",
+    "description": "一站式聚合WhatsApp、Telegram、Line等13+主流社交平台客户通信及智能客服管理；将碎片化的客户沟通留存为可持续运营的私域资产，实现客户体验与销售业绩的双重提升。",
+    "doc_url": "https://partners.vmcardio.com/docs/SCRM-Champion-quan-qiu-si-yu-yun-ying-zhuan-jia",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install SCRM-Champion-quan-qiu-si-yu-yun-ying-zhuan-jia",
+      "plugin:config SCRM-Champion-quan-qiu-si-yu-yun-ying-zhuan-jia",
+      "plugin:use SCRM-Champion-quan-qiu-si-yu-yun-ying-zhuan-jia"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "SocialEcho-hai-wai-she-mei-guan-li",
+    "name": "SocialEcho海外社媒管理",
+    "category": "social_media",
+    "description": "专注海外社媒多账号管理和AI自动化，支持 FB、INS, TK、YT、X、TG、 LinkedIn等平台，提供多平台多账号的内容发布、数据分析、竞品追踪、舆情关键词追踪、评论私信互动和AI改写创作等功能，助你高效运营社交平台，实现社交营销效率与影响力的提升。",
+    "doc_url": "https://partners.vmcardio.com/docs/SocialEcho-hai-wai-she-mei-guan-li",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install SocialEcho-hai-wai-she-mei-guan-li",
+      "plugin:config SocialEcho-hai-wai-she-mei-guan-li",
+      "plugin:use SocialEcho-hai-wai-she-mei-guan-li"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Spy-House",
+    "name": "Spy House",
+    "category": "social_media",
+    "description": "Spy House is a professional spy service for discovering profitable ad creatives, funnels, and offers across Push, Inpage, TikTok, and Facebook formats.",
+    "doc_url": "https://partners.vmcardio.com/docs/Spy-House",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Spy-House",
+      "plugin:config Spy-House",
+      "plugin:use Spy-House"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "TGX-zhang-hao-chu-shou",
+    "name": "TGX 账号出售",
+    "category": "social_media",
+    "description": "TGX Account 是一个专注于出售各类社交媒体账号的专业平台，为用户提供包括Telegram、Twitter、YouTube、Gmail、Discord、TikTok、Instagram、Facebook等热门平台的老号、实名号等购买服务。",
+    "doc_url": "https://partners.vmcardio.com/docs/TGX-zhang-hao-chu-shou",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install TGX-zhang-hao-chu-shou",
+      "plugin:config TGX-zhang-hao-chu-shou",
+      "plugin:use TGX-zhang-hao-chu-shou"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "TK-kua-jing-dian-shang-dao-hang",
+    "name": "TK跨境电商导航",
+    "category": "social_media",
+    "description": "TK跨境电商导航为TikTok商家提供全方位支持，包括最新资讯动态、平台政策解读、运营工具推荐及卖家实战经验分享。",
+    "doc_url": "https://partners.vmcardio.com/docs/TK-kua-jing-dian-shang-dao-hang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install TK-kua-jing-dian-shang-dao-hang",
+      "plugin:config TK-kua-jing-dian-shang-dao-hang",
+      "plugin:use TK-kua-jing-dian-shang-dao-hang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "TT-zhi-shi-dao-hang-2nLk",
+    "name": "TT知识导航",
+    "category": "social_media",
+    "description": "专注分享TikTok知识的一个网站",
+    "doc_url": "https://partners.vmcardio.com/docs/TT-zhi-shi-dao-hang-2nLk",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install TT-zhi-shi-dao-hang-2nLk",
+      "plugin:config TT-zhi-shi-dao-hang-2nLk",
+      "plugin:use TT-zhi-shi-dao-hang-2nLk"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "Zenattica",
+    "name": "Zenattica",
+    "category": "social_media",
+    "description": "Agency ad accounts from Zenattica.com for Facebook, Google, TikTok, Bigo & more. Scale campaigns safely and without limits.",
+    "doc_url": "https://partners.vmcardio.com/docs/Zenattica",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install Zenattica",
+      "plugin:config Zenattica",
+      "plugin:use Zenattica"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "CrownSoft",
+    "name": "software,Help enterprises reduce ma",
+    "category": "social_media",
+    "description": "software,Help enterprises reduce ma",
+    "doc_url": "https://partners.vmcardio.com/docs/CrownSoft",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install CrownSoft",
+      "plugin:config CrownSoft",
+      "plugin:use CrownSoft"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "veryfb-com-she-mei-guang-gao-lun-tan",
+    "name": "veryfb.com 社媒广告论坛",
+    "category": "social_media",
+    "description": "Veryfb活跃着一众Facebook、Google、Tiktok大佬，汇集了包括中国大陆，香港，台湾，新加坡，马来西亚等全球华人从业者。",
+    "doc_url": "https://partners.vmcardio.com/docs/veryfb-com-she-mei-guang-gao-lun-tan",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install veryfb-com-she-mei-guang-gao-lun-tan",
+      "plugin:config veryfb-com-she-mei-guang-gao-lun-tan",
+      "plugin:use veryfb-com-she-mei-guang-gao-lun-tan"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "TK-yun-da-shi",
+    "name": "人工智能驱动的TikTok账号自动化批量管理平台，实现",
+    "category": "social_media",
+    "description": "多账号矩阵式管理与全自动批量化运营，让您的TikTok业务轻松扩展。",
+    "doc_url": "https://partners.vmcardio.com/docs/TK-yun-da-shi",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install TK-yun-da-shi",
+      "plugin:config TK-yun-da-shi",
+      "plugin:use TK-yun-da-shi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "quan-qiu-shua-fen-da-shi",
+    "name": "全球刷粉大师",
+    "category": "social_media",
+    "description": "全球涨粉大师是为全球跨境创业者、工作室与企业提供社交媒体平台所需各种粉丝、评论、阅读量、人气等资源的综合性涨粉平台。包括Tiktok、Telegram、Instagram、YouTube等平台的优质涨粉服务",
+    "doc_url": "https://partners.vmcardio.com/docs/quan-qiu-shua-fen-da-shi",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install quan-qiu-shua-fen-da-shi",
+      "plugin:config quan-qiu-shua-fen-da-shi",
+      "plugin:use quan-qiu-shua-fen-da-shi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "xing-da-she-mei-zhang-hao-shang-cheng",
+    "name": "星达社媒账号商城",
+    "category": "social_media",
+    "description": "星达数字产品商城-提供主流海外社交产品销售，主营软件：facebook、Instagram,自营产品全有自产，低价、廉价、批发，主打优惠使用，产品经过站长严格把关，所有账号质保当天24小时内包首登，过后不作任何售后处理，请放心选购",
+    "doc_url": "https://partners.vmcardio.com/docs/xing-da-she-mei-zhang-hao-shang-cheng",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install xing-da-she-mei-zhang-hao-shang-cheng",
+      "plugin:config xing-da-she-mei-zhang-hao-shang-cheng",
+      "plugin:use xing-da-she-mei-zhang-hao-shang-cheng"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "huo-niao-zhang-hao-quan-qiu-wang",
+    "name": "火鸟账号全球网",
+    "category": "social_media",
+    "description": "火鸟账号全球网,提供苹果id购买,Facebook,Instagram,gmali,TikTok,youtube.电报Telegram账号等各类游戏,社交媒体账号购买批发。",
+    "doc_url": "https://partners.vmcardio.com/docs/huo-niao-zhang-hao-quan-qiu-wang",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install huo-niao-zhang-hao-quan-qiu-wang",
+      "plugin:config huo-niao-zhang-hao-quan-qiu-wang",
+      "plugin:use huo-niao-zhang-hao-quan-qiu-wang"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "du-jiao-shou-SCRM-fan-yi-qi",
+    "name": "独角兽SCRM翻译器",
+    "category": "social_media",
+    "description": "企业出海必备全渠道私域沟通工具，集翻译、私域运营与AI客服于一体，打造一站式跨境营销解决方案。",
+    "doc_url": "https://partners.vmcardio.com/docs/du-jiao-shou-SCRM-fan-yi-qi",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install du-jiao-shou-SCRM-fan-yi-qi",
+      "plugin:config du-jiao-shou-SCRM-fan-yi-qi",
+      "plugin:use du-jiao-shou-SCRM-fan-yi-qi"
+    ],
+    "enabled": false
+  },
+  {
+    "id": "tai-dong-ke-ji",
+    "name": "钛动科技是：Tiktok Meta Google 一级代理。",
+    "category": "social_media",
+    "description": "可提供：广告开户自投/代投、创意素材与达人营销、代运营服务、直播服务等全链路一站式服务。目前还可为每位商家朋友，免费赠送：两款AI工具体验权限（达人建联工具+素材生产工具）",
+    "doc_url": "https://partners.vmcardio.com/docs/tai-dong-ke-ji",
+    "api_type": "rest",
+    "commands": [
+      "plugin:install tai-dong-ke-ji",
+      "plugin:config tai-dong-ke-ji",
+      "plugin:use tai-dong-ke-ji"
+    ],
+    "enabled": false
+  }
+]
